@@ -1,0 +1,113 @@
+.hero-container {
+  margin: 0rem 3rem;
+  margin-right: 0;
+  height: calc(100vh - 3rem);
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-gap: 0.5rem;
+  overflow: hidden;
+}
+
+.hero-content-container {
+  margin-top: 5rem;
+
+  p {
+    margin-right: 2rem;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.hero-carousel {
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.slides {
+  width: calc(55vw - 2rem);
+  height: calc(100vh - 4rem);
+  background-repeat: no-repeat;
+
+  h2 {
+    position: absolute;
+    bottom: 1rem;
+    margin: 0rem 3rem 0rem 8rem;
+    text-align: right;
+    color: white;
+
+    span {
+      color: $accent-color;
+    }
+  }
+}
+
+.slide-1 {
+  background: url(../assets/images/hero-banner-1.png);
+  background-size: cover;
+}
+
+@media screen and (min-width: 1030px) {
+  .hero-container {
+    height: calc(100vh - 4rem);
+  }
+
+  .slides {
+    height: calc(100vh - 5rem);
+    background-repeat: no-repeat;
+
+    h2 {
+      bottom: 1rem;
+      margin: 0rem 5rem 0rem 10rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero-content-container {
+    margin-top: 7rem;
+    p {
+      font-size: 20px;
+    }
+
+    button {
+      font-size: 28px;
+      padding: 0.75rem 2.5rem;
+      margin-top: 3rem;
+    }
+  }
+
+  .hero-carousel {
+    margin-top: 1rem;
+    width: fit-content;
+  }
+
+  .slides {
+    width: calc(55vw - 2rem);
+    height: calc(100vh - 5rem);
+    background-repeat: no-repeat;
+
+    h2 {
+      bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .slides {
+    width: calc(55vw - 28rem);
+    height: calc(50vh - 5rem);
+  }
+  .slide-1 {
+    background-position: right;
+    background-size: contain;
+
+    h2 {
+      bottom: 52%;
+      margin: 0rem 28rem 0rem 22rem;
+    }
+  }
+}

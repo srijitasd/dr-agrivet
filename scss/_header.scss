@@ -1,0 +1,135 @@
+.header-container {
+  padding: 0rem 2rem;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+
+  img {
+    height: 7rem;
+    position: absolute;
+  }
+
+  ol {
+    li {
+      float: right;
+      margin: 0rem 0.75rem;
+    }
+  }
+
+  .login {
+    padding: 0 0.75rem;
+    border: 1px solid $accent-color;
+    border-radius: 6px;
+    i {
+      color: $accent-color;
+      margin-right: 0.2rem;
+    }
+  }
+}
+
+/* 
+--------------------------------------------- 
+1.1 HAMBURGER
+---------------------------------------------
+*/
+
+#hamburger-1 {
+  justify-self: end;
+  display: none;
+  position: relative;
+  top: 0.25rem;
+  left: -1rem;
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: $text-color;
+    display: block;
+    margin: 4px auto;
+    position: relative;
+    top: -0.2rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#hamburger-1.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(7px) rotate(45deg);
+  -ms-transform: translateY(7px) rotate(45deg);
+  -o-transform: translateY(7px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+  -ms-transform: translateY(-7px) rotate(-45deg);
+  -o-transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media screen and (min-width: 1030px) {
+  .header-container {
+    padding: 0rem 3rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header-container {
+    img {
+      height: 9rem;
+      position: absolute;
+    }
+
+    ol {
+      li {
+        float: right;
+        margin: 0rem 0.75rem;
+      }
+    }
+
+    .login {
+      padding: 0 0.75rem;
+      border: 1px solid $accent-color;
+      border-radius: 6px;
+      i {
+        color: $accent-color;
+        margin-right: 0.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header-container {
+    padding: 0rem 3rem;
+    height: 4rem;
+    ol {
+      display: none;
+    }
+  }
+
+  #hamburger-1 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header-container {
+    padding: 0rem 1rem;
+    height: 3rem;
+    img {
+      height: 6rem;
+    }
+  }
+}
