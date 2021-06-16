@@ -233,13 +233,12 @@ button:focus {
 }
 
 .hero-carousel {
-  margin-top: 1rem;
   width: fit-content;
 }
 
 .slides {
   width: calc(55vw - 2rem);
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 3rem);
   background-repeat: no-repeat;
 }
 
@@ -265,7 +264,7 @@ button:focus {
     height: calc(100vh - 4rem);
   }
   .slides {
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
     background-repeat: no-repeat;
   }
   .slides h2 {
@@ -287,12 +286,11 @@ button:focus {
     margin-top: 3rem;
   }
   .hero-carousel {
-    margin-top: 1rem;
     width: fit-content;
   }
   .slides {
     width: calc(55vw - 2rem);
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
     background-repeat: no-repeat;
   }
   .slides h2 {
@@ -303,7 +301,7 @@ button:focus {
 @media screen and (min-width: 2400px) {
   .slides {
     width: calc(55vw - 28rem);
-    height: calc(50vh - 5rem);
+    height: calc(50vh - 4rem);
   }
   .slide-1 {
     background-position: right;
