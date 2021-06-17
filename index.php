@@ -35,7 +35,9 @@ require "./partials/header.php"
 
 <!--  Hero carousel ends  -->
 
-<!--  Hero section enda  -->
+<!--  Hero section ends  -->
+
+<!--  Salience section starts  -->
 
 <div class="section salience-container">
   <div class="section-heading-container">
@@ -63,6 +65,31 @@ require "./partials/header.php"
       <p>The farmers receive this specialty services at NO COST</p>
     </div>
   </div>
+</div>
+
+<!--  Salience section ends  -->
+
+<div class="section download-cta-container">
+  <div class="download-cta-content-container">
+    <img src="./assets/images/app-img.png" alt="">
+    <div class="download-cta-content">
+      <h2>Dr. Agrivet App</h2>
+      <p>The on-farm health care and management service in livestock industry is 
+        still at a nascent stage. The availability of experienced veterinarian advisory at 
+        local level remains a key cause of concern for the industry. It is also critical to 
+        ensure a quick turnaround to address issues in livestock farm.
+      </p>
+      <p>An Online Platform that connects the Grassroot Level Farmers with the Veterinarians</p>
+      <button class="download-cta">Read more.</button>
+    </div>
+  </div>
+  <div class="hr-line"></div>
+  <div class="download-button-container">
+      <h2>DOWNLOAD</h2>
+      <img src="./assets/images/google-play.webp" alt="">
+      <a href=""><h3>CLICK HERE TO DOWNLOAD</h3></a>
+     
+    </div>
 </div>
 
 

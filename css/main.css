@@ -634,4 +634,123 @@ button:focus {
     justify-self: center;
   }
 }
+
+.download-cta-container {
+  display: grid;
+  grid-template-columns: 59% 2px 39%;
+  padding: 4rem 2rem;
+  background-color: #06852e;
+}
+
+.download-cta-content-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding-right: 3rem;
+}
+
+.download-cta-content-container img {
+  height: 15rem;
+  align-self: center;
+}
+
+.download-cta-content-container .download-cta-content {
+  color: white;
+}
+
+.download-cta-content-container .download-cta-content h2 {
+  margin-bottom: 1rem;
+}
+
+.download-cta-content-container .download-cta-content p {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.download-cta-content-container .download-cta-content .download-cta {
+  margin-top: 2rem;
+  background-color: white;
+  color: black;
+  padding: 0.75rem 2rem;
+}
+
+.hr-line {
+  width: 1px;
+  background-color: white;
+  height: 90%;
+  align-self: center;
+}
+
+.download-button-container {
+  color: white;
+  display: grid;
+  text-align: center;
+  height: min-content;
+  align-self: center;
+}
+
+.download-button-container img {
+  height: 4rem;
+  justify-self: center;
+  margin: 2rem 0rem;
+  margin-bottom: 1rem;
+}
+
+.download-button-container a {
+  text-decoration: underline;
+  color: white;
+}
+
+.download-button-container h3 {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  .download-cta-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2% auto;
+    padding: 4rem 6rem;
+  }
+  .download-cta-content-container {
+    padding-bottom: 3rem;
+    padding-right: 0;
+    justify-self: center;
+  }
+  .hr-line {
+    width: 90%;
+    height: 1px;
+    justify-self: center;
+  }
+  .download-button-container {
+    margin-top: 3rem;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .download-cta-container {
+    padding: 4rem 2rem;
+  }
+  .download-cta-content-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .download-cta-content-container p {
+    text-align: center;
+  }
+  .download-cta-content-container img {
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+  .download-button-container {
+    margin-top: 1rem;
+  }
+  .download-button-container img {
+    height: 3rem;
+  }
+  .download-button-container h3 {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
