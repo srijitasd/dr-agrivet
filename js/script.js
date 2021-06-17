@@ -33,7 +33,7 @@ window.onload = function () {
           left: "6rem",
         },
       },
-      1030: {
+      1024: {
         padding: {
           right: "0rem",
           left: "0rem",
