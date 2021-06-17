@@ -60,17 +60,26 @@ button:focus {
 }
 
 @media screen and (min-width: 1030px) {
+  h1 {
+    font-size: 56px;
+  }
   h2 {
     font-size: 36px;
   }
+  h3 {
+    font-size: 28px;
+  }
   a {
     font-size: 16px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   h1 {
-    font-size: 65px;
+    font-size: 64px;
     line-height: 120%;
     margin-bottom: 1.5rem;
   }
@@ -85,6 +94,66 @@ button:focus {
   }
   a {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 64px;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 32px;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 26px;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px;
   }
 }
 
@@ -208,6 +277,12 @@ button:focus {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .header-container img {
+    height: 5rem;
+  }
+}
+
 .hero-container {
   margin: 0rem 3rem;
   margin-right: 0;
@@ -232,7 +307,7 @@ button:focus {
   margin-top: 1.5rem;
 }
 
-.hero-carousel {
+.splide_list {
   width: fit-content;
 }
 
@@ -285,7 +360,7 @@ button:focus {
     padding: 0.75rem 2.5rem;
     margin-top: 3rem;
   }
-  .hero-carousel {
+  .splide_list {
     width: fit-content;
   }
   .slides {
@@ -310,6 +385,114 @@ button:focus {
   .slide-1 h2 {
     bottom: 52%;
     margin: 0rem 28rem 0rem 22rem;
+  }
+}
+
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpSD {
+  animation-name: fadeInUpSD;
+}
+
+.is-visible h2 {
+  animation-name: fadeInUpSD;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-container {
+    height: calc(100vh - 4rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    margin-left: 0;
+  }
+  .hero-content-container {
+    margin: 5rem 3rem 0rem 3rem;
+  }
+  .hero-content-container p {
+    margin-right: 2rem;
+  }
+  .hero-content-container button {
+    font-size: 20px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .slides {
+    width: 100vw;
+    height: calc(50vh - 2rem);
+  }
+  .slides h2 {
+    bottom: 2rem;
+    margin: 0rem 5rem 0rem 2rem;
+  }
+  .slide-1 {
+    background: url(../assets/images/hero-banner-1-tab.png);
+    background-size: 100vw 43vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero-container {
+    height: calc(100vh - 3rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+    margin-left: 0;
+  }
+  .hero-content-container {
+    margin: 4rem 2rem 0rem 2rem;
+  }
+  .hero-content-container p {
+    margin-right: 2rem;
+  }
+  .hero-content-container button {
+    font-size: 20px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .slides {
+    width: 100vw;
+    height: calc(40vh - 1.5rem);
+  }
+  .slides h2 {
+    bottom: 1rem;
+    margin: 0rem 2rem 0rem 2rem;
+  }
+  .slide-1 {
+    background: url(../assets/images/hero-banner-1-tab.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-content-container {
+    margin: 3rem 1.5em 0rem 1.5rem;
+  }
+  .hero-content-container p {
+    font-size: 12px;
+  }
+  .hero-content-container button {
+    font-size: 16px;
+    padding: 0.25rem 1.5rem;
+    margin-top: 1rem;
+  }
+  .slides h2 {
+    bottom: 1rem;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=main.css.map */

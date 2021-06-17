@@ -3,8 +3,12 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("is-active");
 });
 
-$(document).ready(function () {
-  $(".hero-carousel").slick({
-    // setting-name: setting-value
-  });
-});
+window.onload = function () {
+  new Splide(".splide", {
+    type: "fade",
+    rewind: true,
+    autoplay: true,
+    arrows: false,
+    pagination: false,
+  }).mount();
+};

@@ -22,7 +22,7 @@
   }
 }
 
-.hero-carousel {
+.splide_list {
   width: fit-content;
 }
 
@@ -79,7 +79,7 @@
     }
   }
 
-  .hero-carousel {
+  .splide_list {
     width: fit-content;
   }
 
@@ -106,6 +106,149 @@
     h2 {
       bottom: 52%;
       margin: 0rem 28rem 0rem 22rem;
+    }
+  }
+}
+
+@-webkit-keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUpSD {
+  -webkit-animation-name: fadeInUpSD;
+  animation-name: fadeInUpSD;
+}
+
+.is-visible h2 {
+  animation-name: fadeInUpSD;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-container {
+    height: calc(100vh - 4rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    margin-left: 0;
+  }
+
+  .hero-content-container {
+    margin: 5rem 3rem 0rem 3rem;
+
+    p {
+      margin-right: 2rem;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 0.5rem 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .slides {
+    width: 100vw;
+    height: calc(50vh - 2rem);
+
+    h2 {
+      bottom: 2rem;
+      margin: 0rem 5rem 0rem 2rem;
+    }
+  }
+
+  .slide-1 {
+    background: url(../assets/images/hero-banner-1-tab.png);
+    background-size: 100vw 43vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero-container {
+    height: calc(100vh - 3rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+    margin-left: 0;
+  }
+
+  .hero-content-container {
+    margin: 4rem 2rem 0rem 2rem;
+
+    p {
+      margin-right: 2rem;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 0.5rem 1.5rem;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .slides {
+    width: 100vw;
+    height: calc(40vh - 1.5rem);
+
+    h2 {
+      bottom: 1rem;
+      margin: 0rem 2rem 0rem 2rem;
+    }
+  }
+
+  .slide-1 {
+    background: url(../assets/images/hero-banner-1-tab.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-content-container {
+    margin: 3rem 1.5em 0rem 1.5rem;
+
+    p {
+      font-size: 12px;
+    }
+
+    button {
+      font-size: 16px;
+      padding: 0.25rem 1.5rem;
+      margin-top: 1rem;
+    }
+  }
+
+  .slides {
+    h2 {
+      bottom: 1rem;
+      margin: 0rem 1.5rem 0rem 1.5rem;
+      font-size: 18px;
     }
   }
 }

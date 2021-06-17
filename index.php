@@ -8,23 +8,27 @@ require "./partials/header.php"
     <h1>Virtual Veterinary <br> Clinic</h1>
     <p> Lorem ipsum dolor sit amet, consectetur elit,
         sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea
+        et dolore magna aliqua. Ut enim ad minim veniam
     </p>
     <button class="hero-cta">ENQUIRE NOW</button>
   </div>
 
-    <div class="hero-carousel">
-      <div class="slides slide-1">
-        <h2>FIRST LIVESTOCK <span>HEALTH CARE</span> ADVISORY ONLINE PLATFORM IN INDIA</h2>
+    <div class="splide">
+      <div class="splide__track">
+        <div class="splide__list"> 
+          <div class="splide__slide slides slide-1">
+            <h2>FIRST LIVESTOCK <span>HEALTH CARE</span> ADVISORY ONLINE PLATFORM IN INDIA</h2>
+          </div>
+          <div class="splide__slide slides slide-1">
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h2>
+          </div> 
+        </div>
       </div>
     </div>
   </div>
 
     </div>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
   <script src="./js/script.js"></script>
   </body>
 </html>

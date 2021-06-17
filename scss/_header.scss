@@ -133,3 +133,11 @@
     }
   }
 }
+
+@media screen and (max-width: 350px) {
+  .header-container {
+    img {
+      height: 5rem;
+    }
+  }
+}
