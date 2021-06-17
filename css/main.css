@@ -157,6 +157,30 @@ button:focus {
   }
 }
 
+/*********************************/
+/* CUSTOME CLASSES  */
+/*********************************/
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-heading-container {
+  display: grid;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.section-heading-container .section-heading-underline {
+  margin-top: 0.5rem;
+  height: 0.25rem;
+  justify-self: center;
+  width: 60%;
+  border-bottom: 2rem;
+  background-color: #2d3b8d;
+}
+
 .header-container {
   padding: 0rem 2rem;
   height: 3rem;
@@ -286,6 +310,7 @@ button:focus {
 .hero-container {
   margin: 0rem 3rem;
   margin-right: 0;
+  margin-bottom: 3rem;
   height: calc(100vh - 3rem);
   display: grid;
   grid-template-columns: 45% 55%;
@@ -504,6 +529,109 @@ button:focus {
     bottom: 1rem;
     margin: 0rem 1.5rem 0rem 1.5rem;
     font-size: 18px;
+  }
+}
+
+.salience-content-container {
+  margin: 0rem 3rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.salience-card {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  display: grid;
+  align-items: flex-end;
+}
+
+.salience-card p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.salience-card-1 {
+  background: url(../assets/backgrounds/card-1.png);
+}
+
+.salience-card-2 {
+  background: url(../assets/backgrounds/card-2.png);
+}
+
+.salience-card-3 {
+  background: url(../assets/backgrounds/card-3.png);
+}
+
+.salience-card-4 {
+  background: url(../assets/backgrounds/card-4.png);
+}
+
+.salience-card-5 {
+  background: url(../assets/backgrounds/card-5.png);
+}
+
+.salience-card-6 {
+  background: url(../assets/backgrounds/card-6.png);
+}
+
+.salience-card-1,
+.salience-card-4 {
+  justify-self: right;
+}
+
+.salience-card-2,
+.salience-card-5 {
+  justify-self: center;
+}
+
+.salience-card {
+  background-size: 101% 102%;
+}
+
+@media screen and (min-width: 1030px) {
+  .salience-card {
+    height: 18rem;
+    width: 18rem;
+  }
+  .salience-card p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .salience-card {
+    height: 20rem;
+    width: 20rem;
+  }
+  .salience-card p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .salience-content-container {
+    grid-template-columns: repeat(2, 50%);
+  }
+  .salience-card {
+    height: 18rem;
+    width: 18rem;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .salience-content-container {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .salience-card {
+    height: 18rem;
+    width: 18rem;
+    justify-self: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
