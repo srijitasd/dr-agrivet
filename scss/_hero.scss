@@ -46,6 +46,13 @@
 
 .slide-1 {
   background: url(../assets/images/hero-banner-1.png);
+}
+
+.slide-2 {
+  background: url(../assets/images/hero-banner-2.png);
+}
+
+.slides {
   background-size: cover;
 }
 
@@ -99,13 +106,13 @@
     width: calc(55vw - 28rem);
     height: calc(50vh - 4rem);
   }
-  .slide-1 {
+
+  .slides {
     background-position: right;
     background-size: contain;
 
     h2 {
-      bottom: 52%;
-      margin: 0rem 28rem 0rem 22rem;
+      margin: 0rem 3rem 0rem 28rem;
     }
   }
 }
@@ -223,6 +230,13 @@
 
   .slide-1 {
     background: url(../assets/images/hero-banner-1-tab.png);
+  }
+
+  .slide-2 {
+    background: url(../assets/images/hero-banner-2-tab.png);
+  }
+
+  .slides {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

@@ -19,8 +19,8 @@ require "./partials/header.php"
           <div class="splide__slide slides slide-1">
             <h2>FIRST LIVESTOCK <span>HEALTH CARE</span> ADVISORY ONLINE PLATFORM IN INDIA</h2>
           </div>
-          <div class="splide__slide slides slide-1">
-            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h2>
+          <div class="splide__slide slides slide-2">
+            <h2>RECEIVE THIS SPECIALITY SERVICE <span>AT NO COST</span></h2>
           </div> 
         </div>
       </div>

@@ -10,5 +10,6 @@ window.onload = function () {
     autoplay: true,
     arrows: false,
     pagination: false,
+    easing: "linear",
   }).mount();
 };
