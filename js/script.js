@@ -22,11 +22,17 @@ window.onload = function () {
     focus: "center",
     autoplay: false,
     padding: {
-      right: "10rem",
-      left: "10rem",
+      right: "20rem",
+      left: "20rem",
     },
     gap: "4rem",
     breakpoints: {
+      1500: {
+        padding: {
+          right: "6rem",
+          left: "6rem",
+        },
+      },
       1030: {
         padding: {
           right: "0rem",
@@ -38,8 +44,8 @@ window.onload = function () {
         perPage: 1,
         gap: "1rem",
         padding: {
-          right: "02rem",
-          left: "02rem",
+          right: "8rem",
+          left: "8rem",
         },
       },
       560: {
