@@ -17,7 +17,7 @@ require "./partials/header.php"
 
   <!--  Hero carousel starts  -->
 
-    <div class="splide">
+    <div class="splide hero-carousel">
       <div class="splide__track">
         <div class="splide__list"> 
             <!--  slide 1  -->
@@ -69,6 +69,8 @@ require "./partials/header.php"
 
 <!--  Salience section ends  -->
 
+<!--  App Download section starts  -->
+
 <div class="section download-cta-container">
   <div class="download-cta-content-container">
     <img src="./assets/images/app-img.png" alt="">
@@ -91,6 +93,106 @@ require "./partials/header.php"
      
     </div>
 </div>
+
+<!--  App Download section ends  -->
+
+<!--  testimonials section starts  -->
+
+<div class="section testimonials-container">
+  <div class="splide testimonial-carousel">
+    <div class="splide__track">
+      <div class="splide__list"> 
+        
+          <div class="splide__slide testimonial">
+            <div class="testimonial-details">
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
+                  They were very thorough about the symptoms and were very good at communication. I am very 
+                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
+                  I never expected to get such good results online, but when I started with them, it never felt less 
+                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
+                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              </p>
+              <div class="user-card">
+                <img src="" alt="">
+                <h3>Jhon Doe</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="splide__slide testimonial">
+            <div class="testimonial-details">
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
+                  They were very thorough about the symptoms and were very good at communication. I am very 
+                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
+                  I never expected to get such good results online, but when I started with them, it never felt less 
+                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
+                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              </p>
+              <div class="user-card">
+                <img src="" alt="">
+                <h3>Jhon Doe</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="splide__slide testimonial">
+            <div class="testimonial-details">
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
+                  They were very thorough about the symptoms and were very good at communication. I am very 
+                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
+                  I never expected to get such good results online, but when I started with them, it never felt less 
+                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
+                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              </p>
+              <div class="user-card">
+                <img src="" alt="">
+                <h3>Jhon Doe</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="splide__slide testimonial">
+            <div class="testimonial-details">
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
+                  They were very thorough about the symptoms and were very good at communication. I am very 
+                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
+                  I never expected to get such good results online, but when I started with them, it never felt less 
+                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
+                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              </p>
+              <div class="user-card">
+                <img src="" alt="">
+                <h3>Jhon Doe</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="splide__slide testimonial">
+            <div class="testimonial-details">
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
+                  They were very thorough about the symptoms and were very good at communication. I am very 
+                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
+                  I never expected to get such good results online, but when I started with them, it never felt less 
+                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
+                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              </p>
+              <div class="user-card">
+                <img src="" alt="">
+                <h3>Jhon Doe</h3>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </di>
+  </div>
+</div>
+
+
+
+<!--  testimonials section starts  -->
+
+
 
 
 

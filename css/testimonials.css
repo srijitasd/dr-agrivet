@@ -1,0 +1,14 @@
+.testimonial {
+  padding: 2rem;
+  padding-bottom: 0rem;
+  background: linear-gradient(107.02deg, #06852e 6.25%, #2d3b8d 76.56%);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.user-card {
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  background-color: #dfdfdf;
+}
+/*# sourceMappingURL=testimonials.css.map */
