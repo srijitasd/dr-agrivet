@@ -175,7 +175,7 @@ require "./partials/header.php"
               খুব সাহায্য করেছে আমাকে।
               </p>
               <div class="user-card">
-                <img src="./assets/clients/Sanjib-khan.png" alt="">
+                <img src="./assets/clients/sanjib-khan.png" alt="">
                 <h4>Shyamol Sarder</h4>
               </div>
             </div>
