@@ -57,6 +57,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 7px;
+  transition: 0.5s;
 }
 
 button:focus {
@@ -96,7 +97,7 @@ textarea {
     font-size: 56px;
   }
   h2 {
-    font-size: 30px;
+    font-size: 34px;
   }
   h3 {
     font-size: 28px;
@@ -229,6 +230,18 @@ textarea {
   background-color: #06852e;
   padding: 0.75rem 1.5rem;
   font-size: 16px;
+}
+
+@media screen and (min-width: 1030px) {
+  .section-heading-container h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section-heading-container h2 {
+    font-size: 36px;
+  }
 }
 
 .header-container {
@@ -405,11 +418,11 @@ textarea {
 }
 
 .slide-1 {
-  background: url(../assets/images/hero-banner-1.png);
+  background: url(../assets/images/hero-banner-1.webp);
 }
 
 .slide-2 {
-  background: url(../assets/images/hero-banner-2.png);
+  background: url(../assets/images/hero-banner-2.webp);
 }
 
 .slides {
@@ -517,7 +530,13 @@ textarea {
     margin: 0rem 5rem 0rem 2rem;
   }
   .slide-1 {
-    background: url(../assets/images/hero-banner-1-tab.png);
+    background: url(../assets/images/hero-banner-1-tab.webp);
+    background-size: 100vw 43vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .slide-2 {
+    background: url(../assets/images/hero-banner-2-tab.webp);
     background-size: 100vw 43vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -549,12 +568,6 @@ textarea {
   .slides h2 {
     bottom: 1rem;
     margin: 0rem 2rem 0rem 2rem;
-  }
-  .slide-1 {
-    background: url(../assets/images/hero-banner-1-tab.png);
-  }
-  .slide-2 {
-    background: url(../assets/images/hero-banner-2-tab.png);
   }
   .slides {
     background-size: cover;
@@ -952,6 +965,11 @@ textarea {
 .footer-content ol a img {
   margin-right: 0.75rem;
   height: 2rem;
+  transition: 0.2s;
+}
+
+.footer-content ol a img:hover {
+  transform: scale(1.05);
 }
 
 .footer-content hr {

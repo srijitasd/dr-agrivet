@@ -43,6 +43,8 @@
         
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-  <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>  AOS.init();</script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

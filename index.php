@@ -46,22 +46,22 @@ require "./partials/header.php"
   </div>
 
   <div class="salience-content-container">
-    <div class="salience-card salience-card-1">
+    <div class="salience-card salience-card-1" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500">
       <p>Dr. AgriVet is India’s first Online Livestock Health Care Advisory Platform</p>
     </div>
-    <div class="salience-card salience-card-2">
+    <div class="salience-card salience-card-2" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="200">
       <p>Technology driven, Non-Physical, Real Time, Expert Health Care advisory for Livestock</p>
     </div>
-    <div class="salience-card salience-card-3">
+    <div class="salience-card salience-card-3" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="400">
       <p>An Online Platform that connects the Grassroot Level Farmers with the Veterinarians </p>
     </div>
-    <div class="salience-card salience-card-4">
+    <div class="salience-card salience-card-4" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500">
       <p>An initiative that champions inclusivity by providing digital health</p>
     </div>
-    <div class="salience-card salience-card-5">
+    <div class="salience-card salience-card-5" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="200">
       <p>discover all the information you need for livestock health management.</p>
     </div>
-    <div class="salience-card salience-card-6">
+    <div class="salience-card salience-card-6" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="400">
       <p>The farmers receive this specialty services at NO COST</p>
     </div>
   </div>
@@ -73,7 +73,7 @@ require "./partials/header.php"
 
 <div class="section download-cta-container">
   <div class="download-cta-content-container">
-    <img src="./assets/images/app-img.png" alt="">
+    <img src="./assets/images/app-img.webp" alt="">
     <div class="download-cta-content">
       <h2>Dr. Agrivet App</h2>
       <p>The on-farm health care and management service in livestock industry is 

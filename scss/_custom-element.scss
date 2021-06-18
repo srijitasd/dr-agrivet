@@ -50,10 +50,11 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 7px;
-}
+  transition: 0.5s;
 
-button:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 form {
@@ -90,7 +91,7 @@ textarea {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   h3 {
@@ -248,4 +249,20 @@ textarea {
   background-color: #06852e;
   padding: 0.75rem 1.5rem;
   font-size: 16px;
+}
+
+@media screen and (min-width: 1030px) {
+  .section-heading-container {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section-heading-container {
+    h2 {
+      font-size: 36px;
+    }
+  }
 }
