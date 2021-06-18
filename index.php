@@ -145,7 +145,7 @@ require "./partials/header.php"
                 চাই তাদের এই সায়াটার জন্য।
               </p>
               <div class="user-card">
-                <img src="./assets/clients/Ranjit-khan.jpg" alt="">
+                <img src="./assets/clients/Ranjit-Khan.jpg" alt="">
                 <h4>Ranjit Khan</h4>
               </div>
             </div>
@@ -161,7 +161,7 @@ require "./partials/header.php"
                current global situation. Well done to the team of Dr. Agrivet!
               </p>
               <div class="user-card">
-                <img src="./assets/clients/Sanjib-khan.png" alt="">
+                <img src="./assets/clients/sanjib-khan.png" alt="">
                 <h4>Sanjib Khan</h4>
               </div>
             </div>
