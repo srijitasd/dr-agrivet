@@ -113,7 +113,7 @@ require "./partials/header.php"
                   according to the current global situation. Well done to the team of Dr. Agrivet!
               </p>
               <div class="user-card">
-                <img src="" alt="">
+                <img src="./assets/clients/Pijus-Sarder.jpg" alt="">
                 <h3>Jhon Doe</h3>
               </div>
             </div>
