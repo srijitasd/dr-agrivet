@@ -96,7 +96,7 @@ textarea {
     font-size: 56px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 30px;
   }
   h3 {
     font-size: 28px;
@@ -606,27 +606,27 @@ textarea {
 }
 
 .salience-card-1 {
-  background: url(../assets/backgrounds/card-1.png);
+  background: url(../assets/backgrounds/card-1.webp);
 }
 
 .salience-card-2 {
-  background: url(../assets/backgrounds/card-2.png);
+  background: url(../assets/backgrounds/card-2.webp);
 }
 
 .salience-card-3 {
-  background: url(../assets/backgrounds/card-3.png);
+  background: url(../assets/backgrounds/card-3.webp);
 }
 
 .salience-card-4 {
-  background: url(../assets/backgrounds/card-4.png);
+  background: url(../assets/backgrounds/card-4.webp);
 }
 
 .salience-card-5 {
-  background: url(../assets/backgrounds/card-5.png);
+  background: url(../assets/backgrounds/card-5.webp);
 }
 
 .salience-card-6 {
-  background: url(../assets/backgrounds/card-6.png);
+  background: url(../assets/backgrounds/card-6.webp);
 }
 
 .salience-card-1,
@@ -905,7 +905,6 @@ textarea {
 
 .footer-hero {
   padding: 2rem 4rem;
-  padding-bottom: 0;
   background: url(../assets/backgrounds/footer-hero.svg);
   background-size: cover;
   background-position: center;
@@ -1034,6 +1033,89 @@ textarea {
   }
   .footer-end-content {
     margin-bottom: 0 !important;
+  }
+}
+
+.sister-page-hero-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.sister-page-hero-container img {
+  height: calc(50vw - 8rem);
+  justify-self: right;
+  margin-bottom: 4rem;
+}
+
+.sister-page-hero-content {
+  margin: 6rem 2rem 3rem 4rem;
+}
+
+.sister-page-hero-content h1 {
+  margin-bottom: 2rem;
+}
+
+.page-content {
+  margin: 0rem 12rem 3rem 4rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1030px) {
+  .sister-page-hero-container img {
+    height: calc(50vw - 10rem);
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .sister-page-hero-container img {
+    height: calc(50vw - 46rem);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sister-page-hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55% 45%;
+    height: 100vh;
+  }
+  .sister-page-hero-container img {
+    height: calc(100vw - 18rem);
+    margin-bottom: 0rem;
+    grid-row: 1/2;
+  }
+  .sister-page-hero-content {
+    margin: 2rem 3rem;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .sister-page-hero-container {
+    grid-template-rows: 55% 45%;
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .sister-page-hero-container img {
+    height: 19rem;
+  }
+  .page-content {
+    margin: 3rem;
+  }
+  .page-content p {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sister-page-hero-container {
+    grid-template-rows: 40% 60%;
+  }
+  .sister-page-hero-container img {
+    height: 15rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
