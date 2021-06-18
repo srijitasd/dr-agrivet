@@ -20,7 +20,9 @@ window.onload = function () {
     arrows: false,
     pagination: false,
     focus: "center",
-    autoplay: false,
+    autoplay: true,
+    speed: 2000,
+    interval: 5000,
     padding: {
       right: "20rem",
       left: "20rem",

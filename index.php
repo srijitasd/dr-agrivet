@@ -6,7 +6,7 @@ require "./partials/header.php"
 
 <div class="section hero-container">
   <div class="hero-content-container">
-    <h3>India’s First </h3>
+    <h4>India’s First </h3>
     <h1>Virtual Veterinary <br> Clinic</h1>
     <p> Lorem ipsum dolor sit amet, consectetur elit,
         sed do eiusmod tempor incididunt ut labore 
@@ -99,86 +99,84 @@ require "./partials/header.php"
 <!--  testimonials section starts  -->
 
 <div class="section testimonials-container">
+  <div class="section-heading-container">
+    <h2 class="section-heading">Dr Agrivet – Testimonials</h2>
+    <div class="section-heading-underline"></div>
+  </div>
+
   <div class="splide testimonial-carousel">
     <div class="splide__track">
       <div class="splide__list"> 
         
           <div class="splide__slide testimonial">
             <div class="testimonial-details">
-              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
-                  They were very thorough about the symptoms and were very good at communication. I am very 
-                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
-                  I never expected to get such good results online, but when I started with them, it never felt less 
-                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
-                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              <p>  मेरे फार्म एम् कुछ चीक्स का प्रॉब्लम हुआ था मेने एप्लीकेशन से डॉक्टर क साथै बात किया और मेरा प्रॉब्लम सोल्वे होगया।
+                में अबसे सब प्रॉब्लम क लिए उनसे ह साला मांगूंगा। एकमत्र ऑनलाइन एप्लीकेशन हे जिससे में पूरी तरहसे संतुष्टा हु। डॉक्टर्स 
+                बोहोत अच्छे ह और जबतक प्रोबलम सुलझती नहीं तबतक सहायता करते ।
               </p>
               <div class="user-card">
                 <img src="./assets/clients/Pijus-Sarder.jpg" alt="">
-                <h3>Jhon Doe</h3>
+                <h4>Pijus Sarder</h4>
               </div>
             </div>
           </div>
 
           <div class="splide__slide testimonial">
             <div class="testimonial-details">
-              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
-                  They were very thorough about the symptoms and were very good at communication. I am very 
-                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
-                  I never expected to get such good results online, but when I started with them, it never felt less 
-                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
-                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              <p>  ডাক্তার অগ্রিভেট এপ্লিকেশন বেবহার করে আমার মুরগির ফার্মের যেকোনো রকম সমস্যার সমাধান পেয়েছি বিনা মূল্য।
+                ডাক্তারের সাথে এতো সহজে সব রকম সমস্যার কথা বলা, শুরু থেকে শেষ অবধি যতক্ষণ না আমার সমস্যা মিটেছে 
+                ওনাদের সহযোগিতা আমার কাছে খুব উপকারী মনে হয়েছে।  আমি আমার মতন সবাইকে এই এপ্লিকেশন বেবহার করার 
+                জন্যে পরামর্শ দেব।
               </p>
               <div class="user-card">
-                <img src="" alt="">
-                <h3>Jhon Doe</h3>
+                <img src="./assets/clients/Sourav-Sardar.jpg" alt="Sourav-Sardar">
+                <h4>Sourav Sardar</h4>
               </div>
             </div>
           </div>
 
           <div class="splide__slide testimonial">
             <div class="testimonial-details">
-              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
-                  They were very thorough about the symptoms and were very good at communication. I am very 
-                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
-                  I never expected to get such good results online, but when I started with them, it never felt less 
-                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
-                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              <p>  আমি একজন সাধারণ খামারের মালিক।  আমার রোজকারের একমাত্র উপায় আমার খামারের পশু দেড় থেকে হয়।
+                যেকোনো কারণে মুরগিদের অসুস্থতার কারণে আমার খুব ক্ষতি হতে পারে বলে আমি সব সময় ভয় থাকতাম , কারণ 
+                দেখুন এই সময় ডাক্তার পাওয়া খুব মুশকিল হয়েগেছে।  কিন্তু যবে থেকে আমি ডাক্তার অগ্রিভেট এপ্লিকেশন বেবহার 
+                করতে শুরু করেছি আমার সেই সব চিন্তা দূর হয়েছে।  কারণ আমি জেনোকো সময় যেকোনো জায়গা থেকে উন্নত 
+                ডাক্তার দেড় থেকে উপযুক্ত চিকিৎসা পেয়ে থাকি তও সব বিনা মূল্যে। আমি ডাক্তার অগ্রিভেট কে ধন্যবাদ জানাতে 
+                চাই তাদের এই সায়াটার জন্য।
               </p>
               <div class="user-card">
-                <img src="" alt="">
-                <h3>Jhon Doe</h3>
+                <img src="./assets/clients/Ranjit-khan.jpg" alt="">
+                <h4>Ranjit Khan</h4>
               </div>
             </div>
           </div>
 
           <div class="splide__slide testimonial">
             <div class="testimonial-details">
-              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
-                  They were very thorough about the symptoms and were very good at communication. I am very 
-                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
-                  I never expected to get such good results online, but when I started with them, it never felt less 
-                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
-                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice. 
+              They were very thorough about the symptoms and were very good at communication. I am very satisfied 
+              with their response and I have to say their commitment to the treatment was absolute. I never expected
+               to get such good results online, but when I started with them, it never felt less than going to a 
+               doctor’s office. Also, this App is hassle free of all kind and very convenient according to the 
+               current global situation. Well done to the team of Dr. Agrivet!
               </p>
               <div class="user-card">
-                <img src="" alt="">
-                <h3>Jhon Doe</h3>
+                <img src="./assets/clients/Sanjib-khan.png" alt="">
+                <h4>Sanjib Khan</h4>
               </div>
             </div>
           </div>
 
           <div class="splide__slide testimonial">
             <div class="testimonial-details">
-              <p> I used Dr. Agrivet for treatment of my farm Chickens and I asked them for their advice.
-                  They were very thorough about the symptoms and were very good at communication. I am very 
-                  satisfied with their response and I have to say their commitment to the treatment was absolute. 
-                  I never expected to get such good results online, but when I started with them, it never felt less 
-                  than going to a doctor’s office. Also, this App is hassle free of all kind and very convenient 
-                  according to the current global situation. Well done to the team of Dr. Agrivet!
+              <p>  আমি এক প্রতন্ত গ্রামে থাকি যেখানে সব সময় ডাক্তার পায় খুব মুশকিল হয় , সেই জন্যে আমি যখন 
+              ডাক্তার অগ্রিভেট এর কথা শুনি আমায় ইটা বেবহার করে দেখি।  তার পর থেকে আমার যেকোনো রকমের 
+              সমস্যার সবথেকে ভালো উপায় ডাক্তার অগ্রিভেট।  ওনাদের বেবহার , যোগাযোগের ধরণ , পরামর্শ , সব এ 
+              খুব সাহায্য করেছে আমাকে।
               </p>
               <div class="user-card">
-                <img src="" alt="">
-                <h3>Jhon Doe</h3>
+                <img src="./assets/clients/Sanjib-khan.png" alt="">
+                <h4>Shyamol Sarder</h4>
               </div>
             </div>
           </div>
@@ -187,10 +185,55 @@ require "./partials/header.php"
     </di>
   </div>
 </div>
+</div>
 
+<!--  testimonials section ends  -->
 
 
 <!--  testimonials section starts  -->
+
+<div class="footer-outer-container">
+  <div class="footer-hero">
+    <h4>From the founder’s desk</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+  </div>
+  <div class="footer-inner-container">
+    <div class="footer-content">
+      <h3>Subscribe for newsletter</h3>
+      <p>It is a free online monthly newsletter, published on 1st Friday of every month on 
+      www.dragrivet.com website and Dr Agrivet mobile app. To subscribe and get access to the past 
+      issues, fill-up your mail ID or login to our free application Dr. Agrivet. The newsletter is 
+      a platform for news from South Asian countries on Poultry farming, livestock industry, aquaculture 
+      industry and new research updates.
+      </p>
+      <form>
+      <input type="text" placeholder="Email Address" name="news_name" id="news-name">
+      <button class="form-btn" id="newsletter-btn">SUBSCRIBE</button>
+      </form>
+      <h4>Stay connected with us</h4>
+      <ol>
+        <li><a href=""><img src="./assets/logo/twitter.svg" alt=""></a></li>
+        <li><a href=""><img src="./assets/logo/instagram.svg" alt=""></a></li>
+        <li><a href=""><img src="./assets/logo/facebook.svg" alt=""></a></li>
+        <li><a href=""><img src="./assets/logo/youtube.svg" alt=""></a></li>
+      </ol>
+      <hr>
+      <p class="footer-end-content">Developed, Owned and Operated by Dr Agrivet Advisory LLP</p>
+    </div>
+
+    <div class="footer-form">
+      <form>
+        <h2>Enqiury</h2>
+        <input type="text" placeholder="Name" name="en_name" id="en-name">
+        <input type="text" placeholder="Mobile Number" name="en_number" id="en-number">
+        <input type="text" placeholder="Email Address" name="en_email" id="en-email">
+        <textarea placeholder="Enquiry Details`" name="en_details" id="en-details" cols="30" rows="4"></textarea>
+        <button class="form-btn" id="enquiry-btn">SUBSCRIBE</button>
+      </form>
+    </div>
+  </div>
+</div>
 
 
 

@@ -1,0 +1,148 @@
+.footer-hero {
+  padding: 2rem 4rem;
+  padding-bottom: 0;
+  background: url(../assets/backgrounds/footer-hero.svg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.footer-inner-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.footer-content {
+  padding: 2rem;
+  padding-bottom: 0;
+  background-color: #dfdfdf;
+
+  h3,
+  p {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+
+  form {
+    grid-template-columns: 65% 35%;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  ol {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: fit-content;
+    margin-top: 0.75rem;
+
+    a {
+      img {
+        margin-right: 0.75rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  hr {
+    margin-top: 1.5rem;
+  }
+}
+
+.footer-end-content {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#newsletter-btn {
+  margin: 0rem 0.5rem;
+}
+
+.footer-form {
+  background-color: $cta-back-color;
+  color: white;
+  padding: 2rem 3rem;
+  padding-bottom: 0;
+
+  form {
+    h2 {
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .footer-inner-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .footer-content {
+    padding: 3rem 4rem;
+  }
+
+  .footer-form {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-inner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .footer-hero {
+    padding: 2rem 3rem;
+  }
+
+  .footer-content {
+    padding: 2rem 3rem;
+    padding-bottom: 0;
+  }
+
+  .footer-form {
+    padding-bottom: 2rem;
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer-hero {
+    padding: 2rem;
+  }
+
+  .footer-content {
+    padding: 2rem;
+
+    form {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #newsletter-btn {
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+
+  .footer-form {
+    padding: 2rem;
+    form {
+      h2 {
+        margin-bottom: 1.5rem;
+        font-size: 28px;
+      }
+    }
+  }
+
+  .footer-end-content {
+    margin-bottom: 0 !important;
+  }
+}
