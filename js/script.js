@@ -1,7 +1,29 @@
 const hamburger = document.getElementById("hamburger-1");
+var isNavOpen = false;
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("is-active");
+  isNavOpen = !isNavOpen;
+  if (isNavOpen) {
+    toggleNav();
+  } else {
+    closeNav();
+  }
 });
+
+function toggleNav() {
+  gsap.to(".mobile-navigation-container", {
+    display: "block",
+    height: "100vh",
+    duration: 0.5,
+  });
+}
+function closeNav() {
+  gsap.to(".mobile-navigation-container", {
+    display: "none",
+    height: "0",
+    duration: 0.5,
+  });
+}
 
 window.onload = function () {
   gsap.fromTo(

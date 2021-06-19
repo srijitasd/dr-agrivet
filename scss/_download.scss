@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 45% 55%;
   height: calc(100vh - 3rem);
+  margin-top: 3rem;
   overflow: hidden;
   background: url(../assets/backgrounds/download.svg);
   background-position: center;
@@ -81,6 +82,7 @@
     display: grid;
     grid-template-columns: 40% 60%;
     padding-right: 2rem;
+    margin-top: 4rem;
     .hero-content {
       margin-top: 6rem;
     }
@@ -152,6 +154,9 @@
 
 @media screen and (max-width: 560px) {
   .download-hero-container {
+    background-size: cover;
+    background-position: right bottom;
+
     .hero-content {
       margin-right: 2rem;
       margin-left: 2rem;

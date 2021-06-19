@@ -1,7 +1,6 @@
 .hero-container {
-  margin: 0rem 3rem;
+  margin: 3rem;
   margin-right: 0;
-  margin-bottom: 3rem;
   height: calc(100vh - 3rem);
   display: grid;
   grid-template-columns: 45% 55%;
@@ -59,6 +58,7 @@
 
 @media screen and (min-width: 1030px) {
   .hero-container {
+    margin-top: 4rem;
     height: calc(100vh - 4rem);
   }
 
@@ -163,6 +163,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 50% 50%;
     margin-left: 0;
+    margin-top: 4rem;
   }
 
   .hero-content-container {
@@ -210,6 +211,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 60% 40%;
     margin-left: 0;
+    margin-top: 3rem;
   }
 
   .hero-content-container {
