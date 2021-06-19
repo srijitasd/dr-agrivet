@@ -48,21 +48,21 @@
 
   <div class="mobile-navigation-container">
     <div class="mob-nav-inner-container">
-      <a href="./"><img src="./assets/logo/home.svg" alt=""><h4>Home</h4></a>
+      <a href="./"><img src="./assets/logo/nav-home.svg" alt=""><h4>Home</h4></a>
       <hr>
-      <a href="./about-us.php"><h4>About Us</h4></a>
+      <a href="./about-us.php"><img src="./assets/logo/nav-about.svg" alt=""><h4>About Us</h4></a>
       <hr>
-      <a href="./promoters.php"><h4>Promoters</h4></a>
+      <a href="./promoters.php"><img src="./assets/logo/nav-promoters.svg" alt=""><h4>Promoters</h4></a>
       <hr>
-      <a href="./features.ph"><h4>Features</h4></a>
+      <a href="./features.ph"><img src="./assets/logo/nav-features.svg" alt=""><h4>Features</h4></a>
       <hr>
-      <a href="./download.php"><h4>Download</h4></a>
+      <a href="./download.php"><img src="./assets/logo/nav-download.svg" alt=""><h4>Download</h4></a>
       <hr>
-      <a href="./gallery.php"><h4>Gallery</h4></a>
+      <a href="./gallery.php"><img src="./assets/logo/nav-gallery.svg" alt=""><h4>Gallery</h4></a>
       <hr>
-      <a href="./FAQ.php"><h4>FAQ</h4></a>
+      <a href="./FAQ.php"><img src="./assets/logo/nav-faq.svg" alt=""><h4>FAQ</h4></a>
       <hr>
-      <a href="./contact-us.php"><h4>Contact Us</h4></a>
+      <a href="./contact-us.php"><img src="./assets/logo/nav-contact.svg" alt=""><h4>Contact Us</h4></a>
       <hr>
       
     </div>
