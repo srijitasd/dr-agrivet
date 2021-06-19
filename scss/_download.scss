@@ -15,11 +15,10 @@
   .download-hero-btn-container {
     margin-top: 3rem;
     display: flex;
-    gap: 0.5rem;
+    margin-right: 0.5rem;
 
     button {
       display: flex;
-      gap: 0.5rem;
       padding: 0.5rem 1.5rem;
       height: 100%;
       align-items: center;
@@ -44,10 +43,10 @@
   .download-slide {
     display: flex;
     position: absolute;
-    gap: 1rem;
 
     img {
       height: 2rem;
+      margin: 0rem 1rem;
     }
 
     p {
@@ -166,14 +165,16 @@
     .download-hero-btn-container {
       margin-top: 2rem;
       flex-direction: column;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
 
       button {
         width: fit-content;
         padding: 0.5rem 1rem;
-        gap: 1rem;
       }
       img {
         height: 1.5rem;
+        margin: 0rem 1rem;
       }
     }
 
@@ -196,13 +197,13 @@
     }
 
     .download-slide-1 {
-      padding: 1rem 2rem 1rem 1rem;
+      padding: 1rem 3rem 1rem 1rem;
       left: 1rem;
       top: 75%;
     }
 
     .download-slide-2 {
-      padding: 1rem 1rem 1rem 2rem;
+      padding: 1rem 1rem 1rem 3rem;
       right: 1rem;
       top: 50%;
     }
