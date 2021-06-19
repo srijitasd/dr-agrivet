@@ -330,7 +330,7 @@ textarea {
   background-color: #f8f8f8;
   display: none;
   height: 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .mob-nav-inner-container {
