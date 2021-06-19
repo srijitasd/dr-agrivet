@@ -22,7 +22,6 @@
   ExpiresByType application/font-woff "access plus 1 year"
 
   # CSS, JavaScript
-  ExpiresByType text/css "access plus 1 month"
   ExpiresByType text/javascript "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
 
