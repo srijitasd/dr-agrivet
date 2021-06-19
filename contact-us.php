@@ -21,7 +21,7 @@
             <a href="">www.dragrivet.com</a>
         </div>
     </div>
-    <img src="./assets/images/about-us.webp" alt="">
+    <img src="./assets/images/contact-us.webp" alt="">
 </div>
 
 <div class="map-container">

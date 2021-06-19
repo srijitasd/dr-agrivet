@@ -29,11 +29,11 @@
       <img src="./assets/logo/dragrivet-logo.svg" alt="">
       <ol>
         <li class="login"><a href=""><i class="fas fa-sign-in-alt"></i> Login</a></li>
-        <li><a href="contact-us.php">Contact Us</a></li>
+        <li><a href="./contact-us.php">Contact Us</a></li>
         <li><a href="">FAQ</a></li>
         <li><a href="">Gallery</a></li>
         <li><a href="./download.php">Download</a></li>
-        <li><a href="">Features</a></li>
+        <li><a href="./features.php">Features</a></li>
         <li><a href="">Promoters</a></li>
         <li><a href="./about-us.php">About Us</a></li>
         <li><a href="./">Home</a></li>
