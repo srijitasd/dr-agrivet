@@ -229,6 +229,10 @@
     }
   }
 
+  .hero-carousel {
+    align-self: flex-end;
+  }
+
   .slides {
     width: 100vw;
     height: calc(40vh - 1.5rem);
