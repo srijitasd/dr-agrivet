@@ -210,7 +210,7 @@
   .hero-container {
     height: calc(100vh - 3rem);
     grid-template-columns: 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 45% 55%;
     margin-left: 0;
     margin-top: 3rem;
   }
@@ -235,7 +235,7 @@
 
   .slides {
     width: 100vw;
-    height: calc(40vh - 1.5rem);
+    height: calc(45vh - 1.5rem);
 
     h2 {
       bottom: 1rem;
@@ -266,6 +266,7 @@
   }
 
   .slides {
+    height: calc(40vh - 1.5rem);
     h2 {
       bottom: 1rem;
       margin: 0rem 1.5rem 0rem 1.5rem;
