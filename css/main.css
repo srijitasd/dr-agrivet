@@ -58,6 +58,7 @@ button {
   font-weight: 700;
   border-radius: 7px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 button:focus {
@@ -1181,6 +1182,224 @@ textarea {
 @media screen and (max-width: 1000px) {
   .map-container iframe {
     height: 50vh;
+  }
+}
+
+.download-hero-container {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  height: calc(100vh - 3rem);
+  overflow: hidden;
+  background: url(../assets/backgrounds/download.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.download-hero-container .hero-content {
+  margin: 5rem 0rem 0rem 3rem;
+}
+
+.download-hero-container .download-hero-btn-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.download-hero-container .download-hero-btn-container button {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  height: 100%;
+  align-items: center;
+}
+
+.download-hero-container .download-btn {
+  font-size: 20px;
+}
+
+.download-hero-container .download-hero-animation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.download-hero-container .download-hero-animation-container img {
+  height: 60%;
+}
+
+.download-hero-container .download-slide {
+  display: flex;
+  position: absolute;
+  gap: 1rem;
+}
+
+.download-hero-container .download-slide img {
+  height: 2rem;
+}
+
+.download-hero-container .download-slide p {
+  text-align: center;
+  color: white;
+  align-self: center;
+  font-size: 12px;
+}
+
+.download-hero-container .download-slide-1 {
+  background-image: url(../assets/logo/download-slide-1.svg);
+  padding: 1rem 2rem 1rem 1rem;
+  left: 1rem;
+  top: 55%;
+}
+
+.download-hero-container .download-slide-2 {
+  background: url(../assets/logo/download-slide-2.svg);
+  padding: 1rem 1rem 1rem 2rem;
+  right: 1rem;
+  top: 25%;
+}
+
+.download-hero-container .download-slide {
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1030px) {
+  .download-hero-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-right: 2rem;
+  }
+  .download-hero-container .hero-content {
+    margin-top: 6rem;
+  }
+  .download-hero-container .download-hero-animation-container img {
+    height: 70%;
+  }
+  .download-hero-container .download-slide img {
+    height: 4rem;
+  }
+  .download-hero-container .download-slide p {
+    font-size: 16px;
+  }
+  .download-hero-container .download-slide-1 {
+    padding: 1rem 3rem 1rem 1rem;
+    left: 0;
+    top: 55%;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 1rem 1rem 1rem 3rem;
+    right: 0;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .download-hero-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    background: url(../assets/backgrounds/download-tab.svg);
+  }
+  .download-hero-container .hero-content {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  .download-hero-container .download-hero-animation-container img {
+    height: 70%;
+  }
+  .download-hero-container .download-slide img {
+    height: 3rem;
+  }
+  .download-hero-container .download-slide-1 {
+    padding: 2rem 3rem 2rem 2rem;
+    left: 2rem;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 2rem 2rem 2rem 3rem;
+    right: 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .download-hero-container .hero-content {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+  }
+  .download-hero-container .download-hero-btn-container {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .download-hero-container .download-hero-btn-container button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+  }
+  .download-hero-container .download-hero-btn-container img {
+    height: 1.5rem;
+  }
+  .download-hero-container .download-btn {
+    font-size: 16px;
+  }
+  .download-hero-container .download-hero-animation-container {
+    align-items: flex-end;
+    margin-bottom: 1rem;
+  }
+  .download-hero-container .download-hero-animation-container img {
+    height: 60%;
+  }
+  .download-hero-container .download-slide img {
+    height: 2rem;
+  }
+  .download-hero-container .download-slide-1 {
+    padding: 1rem 2rem 1rem 1rem;
+    left: 1rem;
+    top: 75%;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 1rem 1rem 1rem 2rem;
+    right: 1rem;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .download-hero-container .hero-content {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+  .download-hero-container .download-hero-btn-container {
+    margin-top: 1rem;
+  }
+  .download-hero-container .download-hero-btn-container button {
+    width: fit-content;
+    padding: 0.4rem 1rem;
+  }
+  .download-hero-container .download-hero-btn-container img {
+    height: 1rem;
+  }
+  .download-hero-container .download-btn {
+    font-size: 14px;
+  }
+  .download-hero-container .download-hero-animation-container img {
+    height: 60%;
+  }
+  .download-hero-container .download-slide img {
+    height: 1.5rem;
+    align-self: center;
+  }
+  .download-hero-container .download-slide p {
+    font-size: 10px;
+  }
+  .download-hero-container .download-slide-1 {
+    padding: 1rem 2rem 1rem 1rem;
+    left: 0.5rem;
+    top: 80%;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 1rem 1rem 1rem 2rem;
+    right: 0.5rem;
+    top: 40%;
   }
 }
 /*# sourceMappingURL=main.css.map */

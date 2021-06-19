@@ -4,6 +4,28 @@ hamburger.addEventListener("click", () => {
 });
 
 window.onload = function () {
+  gsap.fromTo(
+    ".download-slide-1",
+    {
+      x: -40,
+    },
+    {
+      x: 0,
+      duration: 0.75,
+    }
+  );
+
+  gsap.fromTo(
+    ".download-slide-2",
+    {
+      x: 40,
+    },
+    {
+      x: 0,
+      duration: 1,
+    }
+  );
+
   new Splide(".hero-carousel", {
     type: "fade",
     rewind: true,
