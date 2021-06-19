@@ -1351,6 +1351,10 @@ textarea {
   align-items: center;
 }
 
+.download-hero-container .download-hero-btn-container button img {
+  margin-right: 0.5rem;
+}
+
 .download-hero-container .download-btn {
   font-size: 20px;
 }
@@ -1497,12 +1501,12 @@ textarea {
   }
   .download-hero-container .download-slide-1 {
     padding: 1rem 3rem 1rem 1rem;
-    left: 1rem;
+    left: 0rem;
     top: 75%;
   }
   .download-hero-container .download-slide-2 {
     padding: 1rem 1rem 1rem 3rem;
-    right: 1rem;
+    right: 0rem;
     top: 50%;
   }
 }
