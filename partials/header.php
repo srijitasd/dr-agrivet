@@ -15,6 +15,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" 
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/viewbox.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0" />
@@ -30,8 +31,8 @@
     <ol>
       <li class="login"><a href=""><i class="fas fa-sign-in-alt"></i> Login</a></li>
       <li><a href="./contact-us.php">Contact Us</a></li>
-      <li><a href="">FAQ</a></li>
-      <li><a href="">Gallery</a></li>
+      <li><a href="./faq.php">FAQ</a></li>
+      <li><a href="./gallery.php">Gallery</a></li>
       <li><a href="./download.php">Download</a></li>
       <li><a href="./features.php">Features</a></li>
       <li><a href="">Promoters</a></li>
@@ -60,7 +61,7 @@
       <hr>
       <a href="./gallery.php"><img src="./assets/logo/nav-gallery.svg" alt=""><h4>Gallery</h4></a>
       <hr>
-      <a href="./FAQ.php"><img src="./assets/logo/nav-faq.svg" alt=""><h4>FAQ</h4></a>
+      <a href="./faq.php"><img src="./assets/logo/nav-faq.svg" alt=""><h4>FAQ</h4></a>
       <hr>
       <a href="./contact-us.php"><img src="./assets/logo/nav-contact.svg" alt=""><h4>Contact Us</h4></a>
       <hr>

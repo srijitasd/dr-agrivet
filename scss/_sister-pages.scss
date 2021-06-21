@@ -52,6 +52,28 @@
   }
 }
 
+.section-gallery-outer-container {
+  margin: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+
+  h2 {
+    margin-left: 1rem;
+  }
+}
+
+.gallery-section-container {
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
+
+  img {
+    height: 30rem;
+  }
+}
+
 @media screen and (min-width: 1030px) {
   .sister-page-hero-container {
     img {
@@ -117,6 +139,22 @@
 
     img {
       height: 19rem;
+    }
+  }
+
+  .section-gallery-outer-container {
+    margin: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+
+    h2 {
+      margin-left: 1rem;
+    }
+  }
+
+  .gallery-section-container {
+    img {
+      height: 20rem;
     }
   }
 
