@@ -1212,9 +1212,51 @@ textarea {
   height: 30rem;
 }
 
+.promoters-list-outer-container {
+  margin: 1rem 3rem;
+}
+
+.promoters-list-outer-container .section-heading-container {
+  margin-bottom: 1rem;
+}
+
+.promoters-list-inner-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.promoters-card {
+  padding: 3rem 4rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  position: relative;
+  border: 2px solid #b3b3b3;
+  border-radius: 2rem;
+  display: grid;
+}
+
+.promoters-card img {
+  position: absolute;
+  height: 12rem;
+  top: -6rem;
+  left: 4rem;
+}
+
+.promoters-card h3 {
+  margin-left: 16rem;
+  margin-bottom: 2rem;
+}
+
+.promoters-card p {
+  margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 1030px) {
   .sister-page-hero-container img {
     height: calc(50vw - 10rem);
+  }
+  .promoters-card {
+    padding: 3rem 5rem;
   }
 }
 
@@ -1257,6 +1299,22 @@ textarea {
   .features-card-container {
     grid-template-columns: repeat(2, 50%);
   }
+  .promoters-card {
+    padding: 3rem;
+    margin-top: 5rem;
+  }
+  .promoters-card img {
+    height: 10rem;
+    top: -4rem;
+    left: 2rem;
+  }
+  .promoters-card h3 {
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+  }
+  .promoters-card p {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -1294,6 +1352,33 @@ textarea {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(1, 100%);
+  }
+  .promoters-list-outer-container {
+    margin: 1rem;
+  }
+  .promoters-list-outer-container .section-heading-container {
+    margin-bottom: 3rem;
+  }
+  .promoters-card {
+    padding: 3rem 2rem;
+    padding-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .promoters-card img {
+    height: 8rem;
+    top: -4rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .promoters-card h3 {
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-self: center;
+  }
+  .promoters-card p {
+    margin-bottom: 1rem;
   }
 }
 

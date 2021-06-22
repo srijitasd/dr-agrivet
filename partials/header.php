@@ -23,48 +23,49 @@
     <title>Dr Agrivet</title>
   </head>
 
-  <body>
+<body>
     <!-- HEADER SECTIN STARTS  -->
-<div class="main-container">
-  <header class="header-container">
-    <img src="./assets/logo/dragrivet-logo.svg" alt="">
-    <ol>
-      <li class="login"><a href=""><i class="fas fa-sign-in-alt"></i> Login</a></li>
-      <li><a href="./contact-us.php">Contact Us</a></li>
-      <li><a href="./faq.php">FAQ</a></li>
-      <li><a href="./gallery.php">Gallery</a></li>
-      <li><a href="./download.php">Download</a></li>
-      <li><a href="./features.php">Features</a></li>
-      <li><a href="">Promoters</a></li>
-      <li><a href="./about-us.php">About Us</a></li>
-      <li><a href="./">Home</a></li>
-    </ol>
+    
+  <div class="main-container">
+    <header class="header-container">
+      <img src="./assets/logo/dragrivet-logo.svg" alt="">
+      <ol>
+        <li class="login"><a href=""><i class="fas fa-sign-in-alt"></i> Login</a></li>
+        <li><a href="./contact-us.php">Contact Us</a></li>
+        <li><a href="./faq.php">FAQ</a></li>
+        <li><a href="./gallery.php">Gallery</a></li>+
+        <li><a href="./download.php">Download</a></li>
+        <li><a href="./features.php">Features</a></li>
+        <li><a href="">Promoters</a></li>
+        <li><a href="./about-us.php">About Us</a></li>
+        <li><a href="./">Home</a></li>
+      </ol>
 
-    <div class="hamburger" id="hamburger-1">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
-  </header>
+      <div class="hamburger" id="hamburger-1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </header>
 
-  <div class="mobile-navigation-container">
-    <div class="mob-nav-inner-container">
-      <a href="./"><img src="./assets/logo/nav-home.svg" alt=""><h4>Home</h4></a>
-      <hr>
-      <a href="./about-us.php"><img src="./assets/logo/nav-about.svg" alt=""><h4>About Us</h4></a>
-      <hr>
-      <a href="./promoters.php"><img src="./assets/logo/nav-promoters.svg" alt=""><h4>Promoters</h4></a>
-      <hr>
-      <a href="./features.ph"><img src="./assets/logo/nav-features.svg" alt=""><h4>Features</h4></a>
-      <hr>
-      <a href="./download.php"><img src="./assets/logo/nav-download.svg" alt=""><h4>Download</h4></a>
-      <hr>
-      <a href="./gallery.php"><img src="./assets/logo/nav-gallery.svg" alt=""><h4>Gallery</h4></a>
-      <hr>
-      <a href="./faq.php"><img src="./assets/logo/nav-faq.svg" alt=""><h4>FAQ</h4></a>
-      <hr>
-      <a href="./contact-us.php"><img src="./assets/logo/nav-contact.svg" alt=""><h4>Contact Us</h4></a>
-      <hr>
-      
+    <div class="mobile-navigation-container">
+      <div class="mob-nav-inner-container">
+        <a href="./"><img src="./assets/logo/nav-home.svg" alt=""><h4>Home</h4></a>
+        <hr>
+        <a href="./about-us.php"><img src="./assets/logo/nav-about.svg" alt=""><h4>About Us</h4></a>
+        <hr>
+        <a href="./promoters.php"><img src="./assets/logo/nav-promoters.svg" alt=""><h4>Promoters</h4></a>
+        <hr>
+        <a href="./features.ph"><img src="./assets/logo/nav-features.svg" alt=""><h4>Features</h4></a>
+        <hr>
+        <a href="./download.php"><img src="./assets/logo/nav-download.svg" alt=""><h4>Download</h4></a>
+        <hr>
+        <a href="./gallery.php"><img src="./assets/logo/nav-gallery.svg" alt=""><h4>Gallery</h4></a>
+        <hr>
+        <a href="./faq.php"><img src="./assets/logo/nav-faq.svg" alt=""><h4>FAQ</h4></a>
+        <hr>
+        <a href="./contact-us.php"><img src="./assets/logo/nav-contact.svg" alt=""><h4>Contact Us</h4></a>
+        <hr>
+        
+      </div>
     </div>
-  </div>
