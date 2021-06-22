@@ -36,7 +36,7 @@
         <li><a href="./gallery.php">Gallery</a></li>+
         <li><a href="./download.php">Download</a></li>
         <li><a href="./features.php">Features</a></li>
-        <li><a href="">Promoters</a></li>
+        <li><a href="./promoters.php">Promoters</a></li>
         <li><a href="./about-us.php">About Us</a></li>
         <li><a href="./">Home</a></li>
       </ol>
