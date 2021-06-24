@@ -18,14 +18,14 @@
         <a href="./assets/download/my_profile.webp" class="image-link" title="My profile">
             <img src="./assets/download/my_profile.webp" alt="">
         </a>
-        <a href="./assets/download/my_profile_1.webp" class="image-link" title="My profile">
-            <img src="./assets/download/my_profile_1.webp" alt="">
+        <a href="./assets/download/My_Profile_1.webp" class="image-link" title="My profile">
+            <img src="./assets/download/My_Profile_1.webp" alt="">
         </a>
-        <a href="./assets/download/my_profile_2.webp" class="image-link" title="My profile">
-            <img src="./assets/download/my_profile_2.webp" alt="">
+        <a href="./assets/download/My_Profile_2.webp" class="image-link" title="My profile">
+            <img src="./assets/download/My_Profile_2.webp" alt="">
         </a>
-        <a href="./assets/download/my_profile_3.webp" class="image-link" title="My profile">
-            <img src="./assets/download/my_profile_3.webp" alt="">
+        <a href="./assets/download/My_Profile_3.webp" class="image-link" title="My profile">
+            <img src="./assets/download/My_Profile_3.webp" alt="">
         </a>
         <a href="./assets/download/Case_details_all.webp" class="image-link" title="All case details">
             <img src="./assets/download/Case_details_all.webp" alt="">
@@ -40,13 +40,13 @@
 
     <h2>User App</h2>
     <div class="section gallery-section-container">
-        <a href="./assets/download/Home_page.webp" class="image-link" title="Homepage">
+        <a href="./assets/download/Home_Page.webp" class="image-link" title="Homepage">
             <img src="./assets/download/Home_page.webp" alt="">
         </a>
         <a href="./assets/download/My_Profile_edit.webp" class="image-link" title="User profile">
             <img src="./assets/download/My_Profile_edit.webp" alt="">
         </a>
-        <a href="./assets/download/All_Case_Details.webp" class="image-link" title="Case details">
+        <a href="./assets/download/All_case_details.webp" class="image-link" title="Case details">
             <img src="./assets/download/All_Case_Details.webp" alt="">
         </a>
         <a href="./assets/download/Chat.webp" class="image-link" title="Chat">
