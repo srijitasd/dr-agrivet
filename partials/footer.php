@@ -28,7 +28,7 @@
                 <p class="footer-end-content">Developed, Owned and Operated by Dr Agrivet Advisory LLP</p>
                 </div>
 
-                <div class="footer-form">
+                <div class="footer-form" id="footer-form">
                 <form>
                     <h2>Enqiury</h2>
                     <input type="text" placeholder="Name" name="en_name" id="en-name">

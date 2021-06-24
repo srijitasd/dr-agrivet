@@ -12,7 +12,8 @@ require "./partials/header.php"
         sed do eiusmod tempor incididunt ut labore 
         et dolore magna aliqua. Ut enim ad minim veniam
     </p>
-    <button class="hero-cta">ENQUIRE NOW</button>
+    <a href="#footer-form"> <button class="hero-cta">ENQUIRE NOW</button></a>
+   
   </div>
 
   <!--  Hero carousel starts  -->
@@ -82,14 +83,14 @@ require "./partials/header.php"
         ensure a quick turnaround to address issues in livestock farm.
       </p>
       <p>An Online Platform that connects the Grassroot Level Farmers with the Veterinarians</p>
-      <button class="download-cta">Read more.</button>
+      <a href="./features.php"><button class="download-cta">Read more.</button></a>
     </div>
   </div>
   <div class="hr-line"></div>
   <div class="download-button-container">
       <h2>DOWNLOAD</h2>
       <img src="./assets/images/google-play.webp" alt="">
-      <a href=""><h3>CLICK HERE TO DOWNLOAD</h3></a>
+      <a href="https://play.google.com/store/apps/details?id=com.dragrivet.user"><h3>CLICK HERE TO DOWNLOAD</h3></a>
      
     </div>
 </div>
