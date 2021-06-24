@@ -587,7 +587,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
   .hero-container {
     height: calc(100vh - 3rem);
     grid-template-columns: 1fr;
