@@ -41,13 +41,13 @@
     <h2>User App</h2>
     <div class="section gallery-section-container">
         <a href="./assets/download/Home_Page.webp" class="image-link" title="Homepage">
-            <img src="./assets/download/Home_page.webp" alt="">
+            <img src="./assets/download/Home_Page.webp" alt="">
         </a>
         <a href="./assets/download/My_Profile_edit.webp" class="image-link" title="User profile">
             <img src="./assets/download/My_Profile_edit.webp" alt="">
         </a>
         <a href="./assets/download/All_case_details.webp" class="image-link" title="Case details">
-            <img src="./assets/download/All_Case_Details.webp" alt="">
+            <img src="./assets/download/All_case_details.webp" alt="">
         </a>
         <a href="./assets/download/Chat.webp" class="image-link" title="Chat">
             <img src="./assets/download/Chat.webp" alt="">
