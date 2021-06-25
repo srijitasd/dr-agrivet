@@ -37,6 +37,43 @@ window.onload = function () {
     }
   );
 
+  // service page ebook cta
+  const enquiryBtn = document.getElementById("enquiry-btn");
+
+  $(enquiryBtn).on("click", (e) => {
+    e.preventDefault();
+
+    var jsonObj = jsonData("#enquiry-form");
+
+    if (!jsonObj) {
+      alert("hello");
+    } else {
+      console.log(jsonObj);
+      $.ajax({
+        url: "./includes/api/form-handler-api.php",
+        type: "POST",
+        data: jsonObj,
+        success: function (data) {
+          console.log(data);
+        },
+      });
+    }
+  });
+
+  function jsonData(form) {
+    var arr = $(form).serializeArray();
+    var obj = {};
+    for (var a = 0; a < arr.length; a++) {
+      if (arr[a].value == "") {
+        return false;
+      }
+      obj[arr[a].name] = arr[a].value;
+    }
+
+    var jsonData = JSON.stringify(obj);
+    return jsonData;
+  }
+
   $(function () {
     $(".image-link").viewbox();
   });

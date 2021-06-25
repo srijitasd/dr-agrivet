@@ -396,20 +396,20 @@ textarea {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
   .header-container {
     padding: 0rem 1rem;
     height: 3rem;
   }
   .header-container img {
     left: 1rem;
-    height: 6rem;
+    height: 5rem;
   }
 }
 
 @media screen and (max-width: 350px) {
   .header-container img {
-    height: 5rem;
+    height: 4rem;
   }
   .mob-nav-inner-container {
     margin: 3rem 3rem;
@@ -600,7 +600,7 @@ textarea {
     margin-top: 3rem;
   }
   .hero-content-container {
-    margin: 4rem 2rem 0rem 2rem;
+    margin: 3rem 0rem 0rem 2rem;
   }
   .hero-content-container h1 {
     margin-bottom: 1rem;
@@ -660,7 +660,10 @@ textarea {
 
 @media screen and (max-width: 350px) {
   .hero-content-container {
-    margin: 3rem 1.5em 0rem 1.5rem;
+    margin: 2rem 1.5em 0rem 1.5rem;
+  }
+  .hero-content-container h1 {
+    font-size: 28px;
   }
   .hero-content-container p {
     font-size: 12px;
@@ -668,7 +671,7 @@ textarea {
   .hero-content-container button {
     font-size: 16px;
     padding: 0.25rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
   .slides {
     height: calc(40vh - 1.5rem);

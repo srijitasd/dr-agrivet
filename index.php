@@ -8,9 +8,8 @@ require "./partials/header.php"
   <div class="hero-content-container">
     <h4>India’s First </h3>
     <h1>Virtual Veterinary <br> Clinic</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur elit,
-        sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam
+    <p> Online Livestock Health Care Advisory Platform – the first of its kind to serve the Livestock 
+    Farmers of urban and rural. Technology driven, Non-Physical, Real Time, Expert Health Care Advisory.
     </p>
     <a href="#footer-form"> <button class="hero-cta">ENQUIRE NOW</button></a>
    

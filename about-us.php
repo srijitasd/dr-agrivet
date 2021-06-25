@@ -3,11 +3,9 @@
 <div class="sister-page-hero-container">
     <div class="sister-page-hero-content">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-             pariatur.
+        <p>An Online Platform that connects the Grassroot Level Farmers with the Veterinarians with an 
+        objective to provide effective and scientific technical assistance for Poultry, Dairy, Aqua and other 
+        livestock healthcare and management
         </p>
     </div>
     <img src="./assets/images/about-us.webp" alt="">

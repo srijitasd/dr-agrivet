@@ -29,14 +29,15 @@
                 </div>
 
                 <div class="footer-form" id="footer-form">
-                <form>
+                <form id="enquiry-form">
                     <h2>Enqiury</h2>
                     <input type="text" placeholder="Name" name="en_name" id="en-name">
                     <input type="text" placeholder="Mobile Number" name="en_number" id="en-number">
                     <input type="text" placeholder="Email Address" name="en_email" id="en-email">
                     <textarea placeholder="Enquiry Details`" name="en_details" id="en-details" cols="30" rows="4"></textarea>
-                    <button class="form-btn" id="enquiry-btn">SUBSCRIBE</button>
+                    
                 </form>
+                <button class="form-btn" id="enquiry-btn">SUBSCRIBE</button>
                 </div>
             </div>
         </div>

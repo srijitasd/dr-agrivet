@@ -216,7 +216,7 @@
   }
 
   .hero-content-container {
-    margin: 4rem 2rem 0rem 2rem;
+    margin: 3rem 0rem 0rem 2rem;
 
     h1 {
       margin-bottom: 1rem;
@@ -290,7 +290,11 @@
 
 @media screen and (max-width: 350px) {
   .hero-content-container {
-    margin: 3rem 1.5em 0rem 1.5rem;
+    margin: 2rem 1.5em 0rem 1.5rem;
+
+    h1 {
+      font-size: 28px;
+    }
 
     p {
       font-size: 12px;
@@ -299,7 +303,7 @@
     button {
       font-size: 16px;
       padding: 0.25rem 1.5rem;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
   }
 
