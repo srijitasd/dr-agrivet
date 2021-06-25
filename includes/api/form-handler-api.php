@@ -6,7 +6,7 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Access-Control-Allow-Origin, Content-Type, Access-Control-Allow-Methods');
 
-include "../dbh.inc.php";
+include_once "../dbh.inc.php";
 
 $data = json_decode(file_get_contents("php://input"), true);
 
@@ -46,7 +46,6 @@ else {
         echo json_encode(array('name' => "{$en_name}", 'number' => "{$en_number}", 'email' => "{$en_email}", 'details' => "{$en_details}",  "status" => 201));
     }
 }
-
 
 
 

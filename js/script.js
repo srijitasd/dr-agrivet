@@ -54,7 +54,15 @@ window.onload = function () {
         type: "POST",
         data: jsonObj,
         success: function (data) {
-          console.log(data);
+          switch (data.status) {
+            case 201:
+              enquiryBtn.setAttribute("disabled", true);
+
+              break;
+
+            default:
+              break;
+          }
         },
       });
     }
