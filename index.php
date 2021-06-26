@@ -73,7 +73,7 @@ require "./partials/header.php"
 
 <div class="section download-cta-container">
   <div class="download-cta-content-container">
-    <img src="./assets/images/app-img.webp" alt="">
+    <img src="./assets/images/app-img.webp" alt="dr-agrivet-app">
     <div class="download-cta-content">
       <h2>Dr. Agrivet App</h2>
       <p>The on-farm health care and management service in livestock industry is 
@@ -88,7 +88,7 @@ require "./partials/header.php"
   <div class="hr-line"></div>
   <div class="download-button-container">
       <h2>DOWNLOAD</h2>
-      <img src="./assets/images/google-play.webp" alt="">
+      <img src="./assets/images/google-play.webp" alt="play-store">
       <a href="https://play.google.com/store/apps/details?id=com.dragrivet.user"><h3>CLICK HERE TO DOWNLOAD</h3></a>
      
     </div>
@@ -115,7 +115,7 @@ require "./partials/header.php"
                 बोहोत अच्छे ह और जबतक प्रोबलम सुलझती नहीं तबतक सहायता करते ।
               </p>
               <div class="user-card">
-                <img src="./assets/clients/Pijus-Sarder.jpg" alt="">
+                <img src="./assets/clients/Pijus-Sarder.jpg" alt="client">
                 <h4>Pijus Sarder</h4>
               </div>
             </div>
@@ -145,7 +145,7 @@ require "./partials/header.php"
                 চাই তাদের এই সায়াটার জন্য।
               </p>
               <div class="user-card">
-                <img src="./assets/clients/Ranjit-Khan.jpg" alt="">
+                <img src="./assets/clients/Ranjit-Khan.jpg" alt=client"">
                 <h4>Ranjit Khan</h4>
               </div>
             </div>
@@ -161,7 +161,7 @@ require "./partials/header.php"
                current global situation. Well done to the team of Dr. Agrivet!
               </p>
               <div class="user-card">
-                <img src="./assets/clients/sanjib-khan.png" alt="">
+                <img src="./assets/clients/sanjib-khan.png" alt="client">
                 <h4>Sanjib Khan</h4>
               </div>
             </div>
@@ -175,7 +175,7 @@ require "./partials/header.php"
               খুব সাহায্য করেছে আমাকে।
               </p>
               <div class="user-card">
-                <img src="./assets/clients/sanjib-khan.png" alt="">
+                <img src="./assets/clients/sanjib-khan.png" alt="client">
                 <h4>Shyamol Sarder</h4>
               </div>
             </div>

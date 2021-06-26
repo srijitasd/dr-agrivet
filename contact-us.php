@@ -5,23 +5,23 @@
         <h1>Contact Us</h1>
         <h2>Dr. Agrivet Advisory LLP</h2>
         <div class="contact-details-tiles">
-            <img src="./assets/logo/home.svg" alt="">
+            <img src="./assets/logo/home.svg" alt="address">
             <a href="">714, Lake Town, Block – A, Kolkata - 700089</a>
         </div>
         <div class="contact-details-tiles">
-            <img src="./assets/logo/call.svg" alt="">
+            <img src="./assets/logo/call.svg" alt="call">
             <a href="">+91 033 4005 0858 / 57 / +91 93300 22133</a>
         </div>
         <div class="contact-details-tiles">
-            <img src="./assets/logo/mail.svg" alt="">
+            <img src="./assets/logo/mail.svg" alt="email">
             <a href="">info@dragrivet.com</a>
         </div>
         <div class="contact-details-tiles">
-            <img src="./assets/logo/web.svg" alt="">
+            <img src="./assets/logo/web.svg" alt="website">
             <a href="">www.dragrivet.com</a>
         </div>
     </div>
-    <img src="./assets/images/contact-us.webp" alt="">
+    <img src="./assets/images/contact-us.webp" alt="contact-us">
 </div>
 
 <div class="map-container">

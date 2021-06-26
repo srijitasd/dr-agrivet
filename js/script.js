@@ -37,7 +37,24 @@ window.onload = function () {
     }
   );
 
-  // service page ebook cta
+  // get the API result via jQuery.ajax
+  var userContinent;
+  var userCity;
+  $.ajax({
+    url: "https://ipgeolocation.abstractapi.com/v1/?api_key=2953bb2319364e3ca1b730dc6c140b13",
+    dataType: "json",
+    async: false,
+    success: function (json) {
+      // output the "capital" object inside "location"
+      var userContinent = json.continent;
+      userCity = json.city;
+      // console.log(userContinent);
+      // renderOptions(userCountry, userContinent);
+    },
+  });
+
+  console.log(userCity);
+
   const enquiryBtn = document.getElementById("enquiry-btn");
 
   $(enquiryBtn).on("click", (e) => {

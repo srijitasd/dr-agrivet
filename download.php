@@ -2,19 +2,23 @@
 
 <div class="download-hero-container">
     <div class="hero-content">
-        <h1>Lorem ipsum</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tenetur voluptatibus excepturi vel itaque non.</p>
+        <p>Welcome to India's First, Online Veterinary Clinic. Real Time, Unique, Digital - Livestock Healthcare 
+        Advisory Platform managed by renowned Vets. Available to POULTRY FARMERS @ No Cost. 
+        </p>
+        <p>
+        Download the App from AppStore or directly from website, www.dragrivet.com to register NOW!
+        </p>
         <div class="download-hero-btn-container">
             <a href="">
                 <button class="download-btn">
-                    <img src="./assets/logo/gplay-icon.svg" alt="">
+                    <img src="./assets/logo/gplay-icon.svg" alt="play store">
                     DOWNLOAD
                 </button>
             </a>
             
             <a href="">
                 <button class="manual">
-                <img src="./assets/logo/pdf.svg" alt="">
+                <img src="./assets/logo/pdf.svg" alt="pdf">
                     USER MANUAL
                 </button>
             </a>
@@ -23,15 +27,13 @@
     <div class="download-hero-animation-container">
         
         <div class="download-slide download-slide-1">
-            <img src="./assets/logo/doctor.svg" alt="">
-            <p>Lorem ipsum dolor <br> sit amet.</p>
+            <p>Livestock Farmer registers himself in Dr. AgriVet App & raises his concern from anywhere.</p>
         </div>
 
-        <img src="./assets/images/app-img.webp" alt="">
+        <img src="./assets/images/app-img.webp" alt="dr-agrivet">
         
         <div class="download-slide download-slide-2">
-            <p>Lorem ipsum dolor <br> sit amet.</p>
-            <img src="./assets/logo/doctor.svg" alt="">
+            <p>Livestock Farmer receives the diagnosis with prescription and remedial solution in no-time.</p>
         </div>
     </div>
 </div>

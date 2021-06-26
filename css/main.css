@@ -1463,6 +1463,10 @@ textarea {
   margin: 5rem 0rem 0rem 3rem;
 }
 
+.download-hero-container .hero-content p {
+  margin-bottom: 1rem;
+}
+
 .download-hero-container .download-hero-btn-container {
   margin-top: 3rem;
   display: flex;
@@ -1498,6 +1502,7 @@ textarea {
 .download-hero-container .download-slide {
   display: flex;
   position: absolute;
+  width: 58%;
 }
 
 .download-hero-container .download-slide img {
@@ -1514,20 +1519,21 @@ textarea {
 
 .download-hero-container .download-slide-1 {
   background-image: url(../assets/logo/download-slide-1.svg);
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 2rem 3rem 2rem 1rem;
   left: 1rem;
-  top: 55%;
+  top: 65%;
 }
 
 .download-hero-container .download-slide-2 {
   background: url(../assets/logo/download-slide-2.svg);
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 2rem 1rem 2rem 3rem;
   right: 1rem;
-  top: 25%;
+  top: 15%;
 }
 
 .download-hero-container .download-slide {
-  background-size: 100% 100%;
+  background-size: 100% 122%;
+  background-position: center;
 }
 
 @media screen and (min-width: 1030px) {
@@ -1543,6 +1549,9 @@ textarea {
   .download-hero-container .download-hero-animation-container img {
     height: 70%;
   }
+  .download-hero-container .download-slide {
+    width: 45%;
+  }
   .download-hero-container .download-slide img {
     height: 4rem;
   }
@@ -1552,12 +1561,10 @@ textarea {
   .download-hero-container .download-slide-1 {
     padding: 1rem 3rem 1rem 1rem;
     left: 0;
-    top: 55%;
   }
   .download-hero-container .download-slide-2 {
     padding: 1rem 1rem 1rem 3rem;
     right: 0;
-    top: 25%;
   }
 }
 
@@ -1573,6 +1580,9 @@ textarea {
   }
   .download-hero-container .download-hero-animation-container img {
     height: 70%;
+  }
+  .download-hero-container .download-slide {
+    width: 46%;
   }
   .download-hero-container .download-slide img {
     height: 3rem;
@@ -1621,6 +1631,9 @@ textarea {
   .download-hero-container .download-hero-animation-container img {
     height: 60%;
   }
+  .download-hero-container .download-slide {
+    width: 67%;
+  }
   .download-hero-container .download-slide img {
     height: 2rem;
   }
@@ -1638,9 +1651,13 @@ textarea {
 
 @media screen and (max-width: 360px) {
   .download-hero-container .hero-content {
-    margin-right: 2rem;
-    margin-left: 2rem;
-    margin-top: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+  }
+  .download-hero-container .hero-content p {
+    font-size: 12px;
+    font-weight: 800;
   }
   .download-hero-container .download-hero-btn-container {
     margin-top: 1rem;
@@ -1668,7 +1685,7 @@ textarea {
   .download-hero-container .download-slide-1 {
     padding: 1rem 2rem 1rem 1rem;
     left: 0.5rem;
-    top: 80%;
+    top: 75%;
   }
   .download-hero-container .download-slide-2 {
     padding: 1rem 1rem 1rem 2rem;

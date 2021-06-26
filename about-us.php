@@ -8,7 +8,7 @@
         livestock healthcare and management
         </p>
     </div>
-    <img src="./assets/images/about-us.webp" alt="">
+    <img src="./assets/images/about-us.webp" alt="about us">
 </div>
 
 <div class="page-content">

@@ -7,7 +7,7 @@
         nascent stage. The availability of experienced veterinarian advisory at local level remains 
         a key cause of concern for the  healthcare and management.
     </div>
-    <img src="./assets/images/about-us.webp" alt="">
+    <img src="./assets/images/about-us.webp" alt="about us">
 </div>
 
 
@@ -18,7 +18,7 @@
   </div>
   <div class="promoters-list-inner-container">
     <div class="promoters-card">
-        <img src="./assets/images/promoter-1.webp" alt="">
+        <img src="./assets/images/promoter-1.webp" alt="Dr Anirvid Sarkar">
         <h3 class="promoter-name">Dr Anirvid Sarkar</h3>
         <p>Coming from a modest middleclass family, Anirvid got admitted to study Veterinary Science with 
         specific goal to bag a safe and stable government job with secured future. While studying, the goal 
@@ -41,7 +41,7 @@
     </div>
 
     <div class="promoters-card">
-        <img src="./assets/images/promoter-3.webp" alt="">
+        <img src="./assets/images/promoter-3.webp" alt="Dr Shivaji Dey">
         <h3 class="promoter-name">Dr Shivaji Dey</h3>
         <p>The Co-founder, Shivaji is a versatile person and drives the organizational strategies with major focus 
         in areas of business development and corporate management. Shivaji has a remarkable 20+ years of experience 
@@ -56,7 +56,7 @@
     </div>
 
     <div class="promoters-card">
-        <img src="./assets/images/promoter-4.webp" alt="">
+        <img src="./assets/images/promoter-4.webp" alt="Dr Sudipto Haldar">
         <h3 class="promoter-name">Dr Sudipto Haldar</h3>
         <p>Sudipto is the technical pillar of the concept. He started his career as a veterinary professional in the
          year 1997. He then served as an Assistant Professor of Animal Nutrition and was associated with research 
@@ -72,7 +72,7 @@
     </div>
 
     <div class="promoters-card">
-        <img src="./assets/images/promoter-2.webp" alt="">
+        <img src="./assets/images/promoter-2.webp" alt="Dr Amrita Kumar Dhara">
         <h3 class="promoter-name">Dr Amrita Kumar Dhara</h3>
         <p>A voracious reader, Amrita is the head of technical services of Dr AgriVet activities. He is a complete
              solution to every health issues that might have come from any species. Amrita started his journey in 
@@ -89,7 +89,7 @@
     </div>
 
     <div class="promoters-card">
-        <img src="./assets/images/promoter-5.webp" alt="">
+        <img src="./assets/images/promoter-5.webp" alt="Saikat Roy">
         <h3 class="promoter-name">Saikat Ray</h3>
         <p>Saikat is a chemical engineer from Jadavpur University, Kolkata India, and served a short stint in leading
          multinational corporations in the water treatment and animal nutrition domain. He demonstrated his strong 

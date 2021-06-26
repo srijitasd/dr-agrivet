@@ -12,7 +12,7 @@
             Aqua and other livestock healthcare and management.
         </p>
     </div>
-    <img src="./assets/images/features.webp" alt="">
+    <img src="./assets/images/features.webp" alt="features">
 </div>
 
 <div class="features-card-container">
