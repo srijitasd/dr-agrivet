@@ -14,7 +14,7 @@ $user_id = mysqli_real_escape_string($conn, $data['ClientKey']);
 
 $online = "online";
 
-$sql = "UPDATE client_details SET online_status = '$online' WHERE client_id=$user_id";;
+$sql = "UPDATE client_details SET online_status = ? WHERE client_id='$user_id'";
 $stmt = mysqli_stmt_init($conn);
 
 if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -24,5 +24,6 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 else {
     mysqli_stmt_bind_param($stmt, "s", $online);
     mysqli_stmt_execute($stmt);
+	echo json_encode(array('message' => "success", "status" => 200));
 }
 ?>

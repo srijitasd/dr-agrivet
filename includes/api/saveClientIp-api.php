@@ -10,15 +10,16 @@ include_once "../dbh.inc.php";
 
 $data = json_decode(file_get_contents("php://input"), true);
 
-$user_id = mysqli_real_escape_string($conn, $data['ClientKey']);
-$user_ip = mysqli_real_escape_string($conn, $data['ip']);
-$user_city = mysqli_real_escape_string($conn, $data['city']);
+$user_id = $data['ClientKey'];
+$user_ip = $data['ip'];
+$user_city = $data['city'];
+$online = "online";
 
 
-date_default_timezone_set('Asia/Calcutta');
+
 $date = date('Y-m-d');
 $time = date('H:i:s');
-$sql = "INSERT INTO client_details(client_id, client_date, client_time, client_ip, client_city ) VALUES (?, ?, ?, ?, ?)";
+$sql = "INSERT INTO client_details(client_id, client_date, client_time, client_ip, client_city, online_status) VALUES (?, ?, ?, ?, ?, ?)";
 $stmt = mysqli_stmt_init($conn);
 
 if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -26,9 +27,14 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 }
 
 else {
-    mysqli_stmt_bind_param($stmt, "sssss", $user_id, $date, $time, $user_ip, $user_city);
-    mysqli_stmt_execute($stmt);
-    echo json_encode(array('id' => "{$user_id}", "date" => "{$date}", "time" => "{$time}", "ip" => "{$user_ip}", "city" => "{$user_city}",  "status" => 201));
+    mysqli_stmt_bind_param($stmt, "ssssss", $user_id, $date, $time, $user_ip, $user_city, $online);
+    $statement = mysqli_stmt_execute($stmt);
+	
+	if($statement) {
+	echo "error";
+	}else {
+    echo json_encode(array("id" => "{$user_id}", "date" => "{$date}", "time" => "{$time}", "ip" => "{$user_ip}", "city" => "{$user_city}",  "status" => 201));
+	}
 }
 
 
