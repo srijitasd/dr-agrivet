@@ -9,14 +9,14 @@
         Download the App from AppStore or directly from website, www.dragrivet.com to register NOW!
         </p>
         <div class="download-hero-btn-container">
-            <a href="">
+            <a href="https://drive.google.com/file/d/14GmPthP9mmZjWUSOAU7S4t6CR44rzQt5/view?usp=sharing">
                 <button class="download-btn">
                     <img src="./assets/logo/gplay-icon.svg" alt="play store">
                     DOWNLOAD
                 </button>
             </a>
             
-            <a href="">
+            <a href="https://drive.google.com/file/d/1SIsY-xBBa3HN3tiqqbhofHtI2jeOYbCM/view?usp=sharing">
                 <button class="manual">
                 <img src="./assets/logo/pdf.svg" alt="pdf">
                     USER MANUAL

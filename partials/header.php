@@ -24,6 +24,16 @@
   </head>
 
 <body>
+
+  <div class="preloader-container">
+    <div class="preloader-animation-container" id="preloader-container">
+      <img src="./assets/logo/logo.webp" id="pre-loader-img" alt="" />
+      <div id="line">
+        <div id="inner"></div>
+      </div>
+    </div>
+  </div>
+
     <!-- HEADER SECTIN STARTS  -->
     
   <div class="main-container">

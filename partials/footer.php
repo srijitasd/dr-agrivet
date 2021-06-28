@@ -1,8 +1,9 @@
         <div class="footer-outer-container">
             <div class="footer-hero">
-                <h4>From the founder’s desk</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                <!-- <h4>From the founder’s desk</h4> -->
+                <p>Dr. AgriVet is India’s first Online Livestock Health Care Advisory Platform – the first of its 
+                kind to serve the Livestock Farmers. Technology driven, Non-Physical, Real Time, Expert Health Care 
+                advisory for Livestock farmers of urban and rural.</p>
             </div>
             <div class="footer-inner-container">
                 <div class="footer-content">
@@ -13,16 +14,16 @@
                 a platform for news from South Asian countries on Poultry farming, livestock industry, aquaculture 
                 industry and new research updates.
                 </p>
-                <form>
-                <input type="text" placeholder="Email Address" name="news_name" id="news-name">
+                <form id="newsletter-form">
+                <input type="text" placeholder="Email Address" name="news_email" id="news-email">
                 <button class="form-btn" id="newsletter-btn">SUBSCRIBE</button>
                 </form>
                 <h4>Stay connected with us</h4>
                 <ol>
-                    <li><a href=""><img src="./assets/logo/twitter.svg" alt=""></a></li>
-                    <li><a href=""><img src="./assets/logo/instagram.svg" alt=""></a></li>
-                    <li><a href=""><img src="./assets/logo/facebook.svg" alt=""></a></li>
-                    <li><a href=""><img src="./assets/logo/youtube.svg" alt=""></a></li>
+                    <li><a ><img src="./assets/logo/twitter.svg" alt=""></a></li>
+                    <li><a ><img src="./assets/logo/instagram.svg" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/dragrivet/"><img src="./assets/logo/facebook.svg" alt=""></a></li>
+                    <li><a ><img src="./assets/logo/youtube.svg" alt=""></a></li>
                 </ol>
                 <hr>
                 <p class="footer-end-content">Developed, Owned and Operated by Dr Agrivet Advisory LLP</p>
