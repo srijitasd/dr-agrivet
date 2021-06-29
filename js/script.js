@@ -11,16 +11,16 @@ hamburger.addEventListener("click", () => {
 });
 
 // Set user offline
-window.addEventListener("beforeunload", function (e) {
-  e.preventDefault();
-  setUserOffline();
-});
+// window.addEventListener("beforeunload", function (e) {
+//   e.preventDefault();
+//   setUserOffline();
+// });
 
 // Set user online
 window.addEventListener("load", (e) => {
-  setTimeout(() => {
+  setInterval(() => {
     setUserOnline();
-  }, 1000);
+  }, 10000);
 });
 
 window.onload = function () {
@@ -301,21 +301,21 @@ function makeAjaxRequest(apiName, jsonObj) {
 
 // set user offline funtion
 
-function setUserOffline() {
-  const ClientKey = localStorage.getItem("client-id");
-  const offlineStatus = {
-    ClientKey,
-  };
-  const offlineJsom = JSON.stringify(offlineStatus);
-  $.ajax({
-    url: "./includes/api/offline-api.php",
-    type: "POST",
-    data: offlineJsom,
-    success: function (data) {
-      console.log(data);
-    },
-  });
-}
+// function setUserOffline() {
+//   const ClientKey = localStorage.getItem("client-id");
+//   const offlineStatus = {
+//     ClientKey,
+//   };
+//   const offlineJsom = JSON.stringify(offlineStatus);
+//   $.ajax({
+//     url: "./includes/api/offline-api.php",
+//     type: "POST",
+//     data: offlineJsom,
+//     success: function (data) {
+//       console.log(data);
+//     },
+//   });
+// }
 
 function setUserOnline() {
   const ClientKey = localStorage.getItem("client-id");

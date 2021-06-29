@@ -13,7 +13,7 @@ $data = json_decode(file_get_contents("php://input"), true);
 $user_id = $data['ClientKey'];
 $user_ip = $data['ip'];
 $user_city = $data['city'];
-$online = "online";
+$online = 0;
 
 
 
@@ -27,7 +27,7 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 }
 
 else {
-    mysqli_stmt_bind_param($stmt, "ssssss", $user_id, $date, $time, $user_ip, $user_city, $online);
+    mysqli_stmt_bind_param($stmt, "sssssi", $user_id, $date, $time, $user_ip, $user_city, $online);
     $statement = mysqli_stmt_execute($stmt);
 	
 	if($statement) {

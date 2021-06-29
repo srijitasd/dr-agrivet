@@ -14,7 +14,8 @@
         "../scss/_footer.scss",
         "../scss/_sister-pages.scss",
         "../scss/_download.scss",
-        "../scss/_faq.scss"
+        "../scss/_faq.scss",
+        "../scss/_modal.scss"
     ],
     "names": [],
     "file": "main.css"

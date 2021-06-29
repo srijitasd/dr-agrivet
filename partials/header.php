@@ -25,6 +25,11 @@
 
 <body>
 
+<!-- Modal -->
+
+
+<!--/ Modal -->
+
   <div class="preloader-container">
     <div class="preloader-animation-container" id="preloader-container">
       <img src="./assets/logo/logo.webp" id="pre-loader-img" alt="" />
