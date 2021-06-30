@@ -16,9 +16,9 @@ $user_city = $data['city'];
 $online = 0;
 
 
-
+date_default_timezone_set("Asia/Kolkata");
 $date = date('Y-m-d');
-$time = date('H:i:s');
+$time = date('H:i:s a');
 $sql = "INSERT INTO client_details(client_id, client_date, client_time, client_ip, client_city, online_status) VALUES (?, ?, ?, ?, ?, ?)";
 $stmt = mysqli_stmt_init($conn);
 

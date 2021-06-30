@@ -17,11 +17,11 @@ $mainArr = array();
 
 while ($row = mysqli_fetch_assoc($query)) {
     if ($time > $row['online_status']) {
-      $arr =  array('client-id' => $row['client_id'], 'status' => 'offline');
-      array_push($mainArr, $arr);
+        $arr =  array('client_id' => $row['client_id'], 'client_date' => $row['client_date'], 'client_time' => $row['client_time'], 'client_ip' => $row['client_ip'], 'client_city' => $row['client_city'], 'status' => 'offline', 'class' => 'status-offline');
+        array_push($mainArr, $arr);
         //echo(json_encode($arr));
     }else {
-        $arr =  array('client-id' => $row['client_id'], 'status' => 'online');
+        $arr =  array('client_id' => $row['client_id'], 'client_date' => $row['client_date'], 'client_time' => $row['client_time'], 'client_ip' => $row['client_ip'], 'client_city' => $row['client_city'], 'status' => 'online', 'class' => 'status-online');
         array_push($mainArr, $arr);
         //echo(json_encode($arr));
     }

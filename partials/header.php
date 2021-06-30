@@ -26,8 +26,13 @@
 <body>
 
 <!-- Modal -->
+<div id="simpleModal_1" class="modal">
+    <div class="modal-window">
+        <h3>A Basic Modal</h3>
 
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</div>
 <!--/ Modal -->
 
   <div class="preloader-container">
