@@ -23,10 +23,14 @@ require "./partials/header.php";
         <div class="splide__list"> 
             <!--  slide 1  -->
           <div class="splide__slide slides slide-1">
-            <h2>FIRST LIVESTOCK <span>HEALTH CARE</span> ADVISORY ONLINE PLATFORM IN INDIA</h2>
+            <h2>WE WELCOME YOU TO <span>INDIA'S FIRST</span> VIRTUAL VETERINARY CLINIC </h2>
           </div>
           <!--  slide 2  -->
           <div class="splide__slide slides slide-2">
+            <h2>FIRST LIVESTOCK <span>HEALTH CARE</span> ADVISORY ONLINE PLATFORM IN INDIA</h2>
+          </div> 
+          <!--  slide 3  -->
+          <div class="splide__slide slides slide-3">
             <h2>RECEIVE THIS SPECIALITY SERVICE <span>AT NO COST</span></h2>
           </div> 
         </div>
@@ -60,7 +64,7 @@ require "./partials/header.php";
       <p>An initiative that champions inclusivity by providing digital health</p>
     </div>
     <div class="salience-card salience-card-5" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="200">
-      <p>discover all the information you need for livestock health management.</p>
+      <p>Discover all the information you need for livestock health management.</p>
     </div>
     <div class="salience-card salience-card-6" data-aos="fade-up" data-aos-offset="100" data-aos-duration="500" data-aos-delay="400">
       <p>The farmers receive this specialty services at NO COST</p>

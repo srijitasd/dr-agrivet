@@ -46,10 +46,14 @@
 }
 
 .slide-1 {
-  background: url(../assets/images/hero-banner-1.webp);
+  background: url(../assets/images/hero-banner-3.webp);
 }
 
 .slide-2 {
+  background: url(../assets/images/hero-banner-4.webp);
+}
+
+.slide-3 {
   background: url(../assets/images/hero-banner-2.webp);
 }
 
@@ -192,13 +196,20 @@
   }
 
   .slide-1 {
-    background: url(../assets/images/hero-banner-1-tab.png);
+    background: url(../assets/images/hero-banner-3-tab.png);
     background-size: 100vw 43vh;
     background-position: bottom;
     background-repeat: no-repeat;
   }
 
   .slide-2 {
+    background: url(../assets/images/hero-banner-4-tab.png);
+    background-size: 100vw 43vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .slide-3 {
     background: url(../assets/images/hero-banner-2-tab.png);
     background-size: 100vw 43vh;
     background-position: bottom;

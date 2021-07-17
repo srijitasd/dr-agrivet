@@ -40,7 +40,7 @@ window.onload = function () {
       opacity: 1,
       duration: 0.5,
     });
-  }, 10000);
+  }, 2000);
 
   // * Fetch user data that shows online or offline
   $.ajax({

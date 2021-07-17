@@ -17,7 +17,9 @@ $mainArr = array();
 
 while ($row = mysqli_fetch_assoc($query)) {
     if ($time > $row['online_status']) {
-        $arr =  array('client_id' => $row['client_id'], 'client_date' => $row['client_date'], 'client_time' => $row['client_time'], 'client_ip' => $row['client_ip'], 'client_city' => $row['client_city'], 'status' => 'offline', 'class' => 'status-offline');
+        date_default_timezone_set("Asia/Kolkata");
+        $date = date('Y-m-d H-i-s a', $row['online_status']);
+        $arr =  array('client_id' => $row['client_id'], 'client_date' => $row['client_date'], 'client_time' => $row['client_time'], 'client_ip' => $row['client_ip'], 'client_city' => $row['client_city'], 'status' => 'offline', 'last_seen' => $date, 'class' => 'status-offline');
         array_push($mainArr, $arr);
         //echo(json_encode($arr));
     }else {

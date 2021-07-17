@@ -1,18 +1,23 @@
 <?php require "./partials/header.php" ?>
 
 <div class="sister-page-hero-container features-hero-container">
-    <div class="sister-page-hero-content">
-        <h1>Features</h1>
-        <p>The on-farm health care and management service in livestock industry is still at a 
-            nascent stage. The availability of experienced veterinarian advisory at local level 
-            remains a key cause of concern for the industry. It is also critical to ensure a quick 
-            turnaround to address issues in livestock farm. <br>
-            An Online Platform that connects the Grassroot Level Farmers with the Veterinarians with 
-            an objective to provide effective and scientific technical assistance for Poultry, Dairy, 
-            Aqua and other livestock healthcare and management.
+    <div class="sister-page-hero-content features-page-content">
+        <p>
+            <img src="./assets/images/features.webp" alt="features">
+
+            <h1>Features</h1>
+            <p>The on-farm health care and management service in livestock industry is still at a 
+                nascent stage. The availability of experienced veterinarian advisory at local level 
+                remains a key cause of concern for the industry. It is also critical to ensure a quick 
+                turnaround to address issues in livestock farm. <br>
+                An Online Platform that connects the Grassroot Level Farmers with the Veterinarians with 
+                an objective to provide effective and scientific technical assistance for Poultry, Dairy, 
+                Aqua and other livestock healthcare and management.
+            </p>
         </p>
+        
     </div>
-    <img src="./assets/images/features.webp" alt="features">
+    
 </div>
 
 <div class="features-card-container">

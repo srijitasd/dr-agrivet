@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+      });
+    </script>
+    <title>Document</title>
+    <style>
+      .list-style-none {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <form id="service_booking_form">
+            <div class="card">
+              <div class="card-body">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Name :"
+                  />
+                </div>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="contact"
+                      name="contact"
+                      placeholder="Contact :"
+                    />
+                  </div>
+                  <div class="form-group col-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Email :"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="Address"
+                    row="3"
+                    name="Address"
+                    placeholder="Address :"
+                  ></textarea>
+                </div>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="city"
+                      name="city"
+                      placeholder="City :"
+                    />
+                  </div>
+                  <div class="form-group col-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="zipcode"
+                      name="zipcode"
+                      placeholder="Zip code :"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-6">
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="preferred_date"
+                      name="preferred_date"
+                    />
+                  </div>
+                  <div class="form-group col-6">
+                    <input
+                      type="time"
+                      class="form-control"
+                      id="preferred_time"
+                      name="preferred_time"
+                    />
+                  </div>
+                </div>
+                <!-- acordian -->
+                <div id="accordion">
+                  <h3>Residential Cleaning</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Smart Clean Advanced"
+                          />
+                          Smart Clean Advanced
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_reg"
+                            value="Smart Clean Regular"
+                          />
+                          Smart Clean Regular
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="kitchen_degreasing"
+                            value="Kitchen Degreasing"
+                          />
+                          Kitchen Degreasing
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Restroom Destaining"
+                          />
+                          Restroom Destaining
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Sofa-O-Clean"
+                          />
+                          Sofa-O-Clean
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Chair-O-Clean"
+                          />
+                          Chair-O-Clean
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Carpet-O-Clean"
+                          />
+                          Carpet-O-Clean
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Curtain-O-Clean"
+                          />
+                          Curtain-O-Clean
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Blinds-O-Clean"
+                          />
+                          Blinds-O-Clean
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Wooden Floor Polishing"
+                          />
+                          Wooden Floor Polishing
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Marble Floor Cleaning"
+                          />
+                          Marble Floor Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Marble Floor Cleaning Advanced"
+                          />
+                          Marble Floor Cleaning Advanced
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Weekend Home Cleaning"
+                          />
+                          Weekend Home Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Pre and Post Event Cleaning"
+                          />
+                          Pre and Post Event Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Post Renovation Cleaning and Organizing"
+                          />
+                          Post Renovation Cleaning and Organizing
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Pre and Post-Tenancy Property Cleaning"
+                          />
+                          Pre and Post-Tenancy Property Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Car Up Keeping Regular"
+                          />
+                          Car Up Keeping Regular
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="restroom_destaining"
+                            value="Car Up Keeping Advanced"
+                          />
+                          Car Up Keeping Advanced
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3>Workplace Cleaning</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Corporate Office - Mechanized Deep Cleaning"
+                          />
+                          Corporate Office - Mechanized Deep Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Restaurants - Mechanized Deep Cleaning"
+                          />
+                          Restaurants - Mechanized Deep Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Warehouse Mechanized Cleaning"
+                          />
+                          Warehouse Mechanized Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Container Mechanized Cleaning"
+                          />
+                          Container Mechanized Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Diagnostic Centers Mechanized Cleaning"
+                          />
+                          Diagnostic Centers Mechanized Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Showrooms Mechanized Cleaning"
+                          />
+                          Showrooms Mechanized Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="School & Colleges Mechanized Cleaning"
+                          />
+                          School & Colleges Mechanized Cleaning
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Facade Cleaning"
+                          />
+                          Facade Cleaning
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3>Specialised Services</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Safe-O-Clean Allergy Care"
+                          />
+                          Safe-O-Clean Allergy Care
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Safe-O-Clean Patient Care"
+                          />
+                          Safe-O-Clean Patient Care
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Safe-O-Clean New-Born Care"
+                          />
+                          Safe-O-Clean New-Born Care
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Safe-O-Clean Hygiene Care"
+                          />
+                          Safe-O-Clean Hygiene Care
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3>Pest Management</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Anti-TERMITE Treatment"
+                          />Anti-TERMITE Treatment
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		CockroKill"
+                          />CockroKill</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		RodaKill"
+                          />RodaKill</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		MosquKill"
+                          />MosquKill</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Bedbuginator"
+                          />
+                          Bedbuginator</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		AntoKill"
+                          />AntoKill</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Anti-SILVERFISH Treatment"
+                          />Anti-SILVERFISH Treatment</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Anti-SPIDER Treatment"
+                          />Anti-SPIDER Treatment</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		FlyKill"
+                          />FlyKill</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="Woodboranator"
+                          />Woodboranator</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Window Netting"
+                          />Window Netting</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		General Insect and Pest Management"
+                          />General Insect & Pest Management</label
+                        >
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Preconstruction Pest Management"
+                          />Preconstruction Pest Management</label
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <h3>Water Hygiene Management</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Water Hygiene Management"
+                          />Water Hygiene Management
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                  <h3>Space Beautification Services</h3>
+                  <div>
+                    <ul class="list-style-none p-0">
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		General Garden Maintenance"
+                          />General Garden Maintenance
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Landscaping And Gardening"
+                          />Landscaping And Gardening
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Hardscaping – Pathways And Sit Out"
+                          />Hardscaping – Pathways And Sit Out
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Roof/ Balcony Organic Vegetable Garden"
+                          />Roof/ Balcony Organic Vegetable Garden
+                        </label>
+                      </li>
+                      <li class="w-50 float-l">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="serviceArray[]"
+                            id="smart_clean_adv"
+                            value="
+		Green Office Maintenance Service"
+                          />Green Office Maintenance Service
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /acordian -->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-2">
+                      <textarea
+                        class="form-control"
+                        rows="3"
+                        name="queries"
+                        placeholder="Extra queries :"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-primary mt-2"
+                      id="cmp_booking_btn"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+          integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        ></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script>
+          const btn = document.getElementById("cmp_booking_btn");
+
+          btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            var jsonObj = jsonData("#service_booking_form");
+            if (!jsonObj) {
+              alert("hello");
+            } else {
+              $.ajax({
+                url: "./includes/api/booking-form-api.php",
+                type: "POST",
+                data: jsonObj,
+                success: function (data) {
+                  switch (data.status) {
+                    case "201":
+                      alert("Your request has been sumitted succesfully");
+                      break;
+
+                    case "400":
+                      alert("Please fill all inputs");
+                      break;
+
+                    case "500":
+                      alert("Sorry we are having some internal issues");
+                      break;
+
+                    default:
+                      break;
+                  }
+                },
+              });
+            }
+          });
+
+          // * MAKE JSON FROM OBJECT FUNCTION
+          function jsonData(form) {
+            var arr = $(form).serializeArray();
+            var serviceArray = [];
+            var obj = {};
+            for (var a = 0; a < arr.length; a++) {
+              if (arr[a].name == "serviceArray[]") {
+                serviceArray.push(arr[a].value);
+                var stringedArray = serviceArray.toString();
+                obj.serviceType = stringedArray;
+              } else {
+                obj[arr[a].name] = arr[a].value;
+              }
+            }
+
+            var jsonData = JSON.stringify(obj);
+            return jsonData;
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,21 +1,30 @@
 .sister-page-hero-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-top: 3rem;
-  height: calc(100vh - 3rem);
+  // display: grid;
+  // grid-template-columns: 50% 50%;
+  // margin-top: 3rem;
+  // height: calc(100vh - 3rem);
+  margin: 3rem 4rem;
+  margin-top: 8rem;
 
   img {
     height: calc(50vw - 8rem);
     justify-self: right;
-    margin-bottom: 4rem;
+    float: right;
+    position: relative;
+    top: -5rem;
+    right: -4rem;
   }
 }
 
 .sister-page-hero-content {
-  margin: 6rem 2rem 3rem 4rem;
-  h1 {
-    margin-bottom: 2rem;
+  p {
+    text-align: justify;
+    font-size: 14.5px;
   }
+}
+
+.promoters-page-hero-content {
+  height: calc(100vh - 12rem);
 }
 
 .page-content {
@@ -121,10 +130,40 @@
   }
 }
 
+.contact-sister-content {
+  height: calc(100vh - 12rem);
+}
+
 @media screen and (min-width: 1030px) {
   .sister-page-hero-container {
     img {
       height: calc(50vw - 10rem);
+      top: -4rem;
+    }
+
+    .contact-sister-content {
+      height: calc(100vh - 8rem);
+    }
+
+    .promoters-page-hero-content {
+      height: calc(100vh - 8rem);
+    }
+
+    .features-page-content {
+      margin-top: 10rem;
+      height: calc(100vh - 8rem);
+
+      img {
+        top: -6rem;
+      }
+    }
+  }
+
+  .promoters-page-hero-content {
+    height: calc(100vh - 12rem);
+    margin-top: 12rem;
+    img {
+      top: -8rem;
     }
   }
 
@@ -134,9 +173,54 @@
 }
 
 @media screen and (min-width: 1400px) {
+  // .sister-page-hero-container {
+  //   height: calc(100vh - 4rem);
+  //   margin-top: 4rem;
+  // }
+}
+
+@media screen and (min-width: 1900px) {
   .sister-page-hero-container {
-    height: calc(100vh - 4rem);
-    margin-top: 4rem;
+    margin: 3rem 4rem;
+    margin-top: 12rem;
+
+    img {
+      top: -8rem;
+      right: -4rem;
+    }
+
+    .features-page-content {
+      img {
+        top: -8rem;
+      }
+
+      p {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .sister-page-hero-content {
+    p {
+      font-size: 22px;
+    }
+  }
+
+  .promoters-page-hero-content {
+    margin-top: 18rem;
+
+    img {
+      top: -14rem;
+    }
+
+    p {
+      font-size: 28px;
+    }
+  }
+
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
   }
 }
 
@@ -157,23 +241,19 @@
 
 @media screen and (max-width: 1000px) {
   .sister-page-hero-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 55% 45%;
-    height: calc(100vh - 3rem);
-
     img {
       height: calc(100vw - 18rem);
-
-      margin-bottom: 0rem;
-      grid-row: 1/2;
+      top: -4rem;
     }
   }
 
-  .sister-page-hero-content {
-    height: auto;
-    margin: 2rem 3rem;
-    align-self: flex-start;
+  .promoters-page-hero-content {
+    margin: 3rem 4rem;
+    margin-top: 8rem;
+
+    img {
+      right: -8rem;
+    }
   }
 
   .features-card-container {
@@ -203,13 +283,23 @@
 
 @media screen and (max-width: 560px) {
   .sister-page-hero-container {
-    grid-template-rows: 55% 45%;
-    height: fit-content;
-    height: auto;
-    margin-bottom: 2rem;
-
+    margin: 3rem;
+    margin-top: 8rem;
     img {
       height: 19rem;
+      top: -5rem;
+      right: -3rem;
+    }
+  }
+
+  .promoters-page-hero-content {
+    margin: 0;
+
+    img {
+      right: -3rem;
+    }
+    p {
+      font-size: 18px;
     }
   }
 
@@ -284,9 +374,23 @@
 
 @media screen and (max-width: 360px) {
   .sister-page-hero-container {
-    grid-template-rows: 40% 60%;
+    margin: 2rem;
+    margin-top: 7rem;
     img {
       height: 15rem;
+      right: -2rem;
+      top: -4rem;
+    }
+  }
+
+  .promoters-page-hero-content {
+    margin-bottom: 5rem;
+
+    img {
+      right: -2rem;
+    }
+    p {
+      font-size: 12px;
     }
   }
 
@@ -312,7 +416,7 @@
   }
 
   .contact-sister-content {
-    margin: 2rem;
+    height: calc(100vh - 12rem);
   }
 }
 
@@ -322,8 +426,13 @@
   }
 
   .contact-sister-content {
-    margin: 2rem 1rem;
+    height: calc(100vh - 0rem);
   }
+}
+
+.contact-icons {
+  top: 0 !important;
+  right: 0 !important;
 }
 
 .map-container {

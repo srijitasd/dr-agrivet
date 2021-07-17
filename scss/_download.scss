@@ -124,6 +124,39 @@
   }
 }
 
+@media screen and (min-width: 1900px) {
+  .download-hero-container .download-slide-1 {
+    padding: 4rem 5rem 4rem 2rem;
+    right: 0;
+  }
+
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
+  }
+
+  .download-hero-container .hero-content {
+    margin-top: 10rem;
+  }
+
+  .download-hero-container .hero-content p {
+    font-size: 26px;
+  }
+
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
+  }
+
+  .download-hero-container .manual {
+    font-size: 20px;
+  }
+
+  .download-hero-container .download-btn {
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .download-hero-container {
     grid-template-columns: 1fr;

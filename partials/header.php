@@ -20,6 +20,7 @@
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <script>(function(w, d) { w.CollectId = "60e2e3980ac71735ab58db9f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
     <title>Dr Agrivet</title>
   </head>
 
@@ -28,9 +29,7 @@
 <!-- Modal -->
 <div id="simpleModal_1" class="modal">
     <div class="modal-window">
-        <h3>A Basic Modal</h3>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <img src="./assets/images/puja.jpg" alt="">
     </div>
 </div>
 <!--/ Modal -->

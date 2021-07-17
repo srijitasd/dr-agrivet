@@ -539,10 +539,14 @@ textarea {
 }
 
 .slide-1 {
-  background: url(../assets/images/hero-banner-1.webp);
+  background: url(../assets/images/hero-banner-3.webp);
 }
 
 .slide-2 {
+  background: url(../assets/images/hero-banner-4.webp);
+}
+
+.slide-3 {
   background: url(../assets/images/hero-banner-2.webp);
 }
 
@@ -653,12 +657,18 @@ textarea {
     margin: 0rem 5rem 0rem 2rem;
   }
   .slide-1 {
-    background: url(../assets/images/hero-banner-1-tab.png);
+    background: url(../assets/images/hero-banner-3-tab.png);
     background-size: 100vw 43vh;
     background-position: bottom;
     background-repeat: no-repeat;
   }
   .slide-2 {
+    background: url(../assets/images/hero-banner-4-tab.png);
+    background-size: 100vw 43vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .slide-3 {
     background: url(../assets/images/hero-banner-2-tab.png);
     background-size: 100vw 43vh;
     background-position: bottom;
@@ -1218,24 +1228,26 @@ textarea {
 }
 
 .sister-page-hero-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-top: 3rem;
-  height: calc(100vh - 3rem);
+  margin: 3rem 4rem;
+  margin-top: 8rem;
 }
 
 .sister-page-hero-container img {
   height: calc(50vw - 8rem);
   justify-self: right;
-  margin-bottom: 4rem;
+  float: right;
+  position: relative;
+  top: -5rem;
+  right: -4rem;
 }
 
-.sister-page-hero-content {
-  margin: 6rem 2rem 3rem 4rem;
+.sister-page-hero-content p {
+  text-align: justify;
+  font-size: 14.5px;
 }
 
-.sister-page-hero-content h1 {
-  margin-bottom: 2rem;
+.promoters-page-hero-content {
+  height: calc(100vh - 12rem);
 }
 
 .page-content {
@@ -1342,19 +1354,70 @@ textarea {
   margin-bottom: 1rem;
 }
 
+.contact-sister-content {
+  height: calc(100vh - 12rem);
+}
+
 @media screen and (min-width: 1030px) {
   .sister-page-hero-container img {
     height: calc(50vw - 10rem);
+    top: -4rem;
+  }
+  .sister-page-hero-container .contact-sister-content {
+    height: calc(100vh - 8rem);
+  }
+  .sister-page-hero-container .promoters-page-hero-content {
+    height: calc(100vh - 8rem);
+  }
+  .sister-page-hero-container .features-page-content {
+    margin-top: 10rem;
+    height: calc(100vh - 8rem);
+  }
+  .sister-page-hero-container .features-page-content img {
+    top: -6rem;
+  }
+  .promoters-page-hero-content {
+    height: calc(100vh - 12rem);
+    margin-top: 12rem;
+  }
+  .promoters-page-hero-content img {
+    top: -8rem;
   }
   .promoters-card {
     padding: 3rem 5rem;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1900px) {
   .sister-page-hero-container {
-    height: calc(100vh - 4rem);
-    margin-top: 4rem;
+    margin: 3rem 4rem;
+    margin-top: 12rem;
+  }
+  .sister-page-hero-container img {
+    top: -8rem;
+    right: -4rem;
+  }
+  .sister-page-hero-container .features-page-content img {
+    top: -8rem;
+  }
+  .sister-page-hero-container .features-page-content p {
+    font-size: 28px;
+  }
+  .sister-page-hero-content p {
+    font-size: 22px;
+  }
+  .promoters-page-hero-content {
+    margin-top: 18rem;
+  }
+  .promoters-page-hero-content img {
+    top: -14rem;
+  }
+  .promoters-page-hero-content p {
+    font-size: 28px;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
   }
 }
 
@@ -1371,21 +1434,16 @@ textarea {
 }
 
 @media screen and (max-width: 1000px) {
-  .sister-page-hero-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 55% 45%;
-    height: calc(100vh - 3rem);
-  }
   .sister-page-hero-container img {
     height: calc(100vw - 18rem);
-    margin-bottom: 0rem;
-    grid-row: 1/2;
+    top: -4rem;
   }
-  .sister-page-hero-content {
-    height: auto;
-    margin: 2rem 3rem;
-    align-self: flex-start;
+  .promoters-page-hero-content {
+    margin: 3rem 4rem;
+    margin-top: 8rem;
+  }
+  .promoters-page-hero-content img {
+    right: -8rem;
   }
   .features-card-container {
     grid-template-columns: repeat(2, 50%);
@@ -1410,13 +1468,22 @@ textarea {
 
 @media screen and (max-width: 560px) {
   .sister-page-hero-container {
-    grid-template-rows: 55% 45%;
-    height: fit-content;
-    height: auto;
-    margin-bottom: 2rem;
+    margin: 3rem;
+    margin-top: 8rem;
   }
   .sister-page-hero-container img {
     height: 19rem;
+    top: -5rem;
+    right: -3rem;
+  }
+  .promoters-page-hero-content {
+    margin: 0;
+  }
+  .promoters-page-hero-content img {
+    right: -3rem;
+  }
+  .promoters-page-hero-content p {
+    font-size: 18px;
   }
   .section-gallery-outer-container {
     margin: 1rem;
@@ -1475,10 +1542,22 @@ textarea {
 
 @media screen and (max-width: 360px) {
   .sister-page-hero-container {
-    grid-template-rows: 40% 60%;
+    margin: 2rem;
+    margin-top: 7rem;
   }
   .sister-page-hero-container img {
     height: 15rem;
+    right: -2rem;
+    top: -4rem;
+  }
+  .promoters-page-hero-content {
+    margin-bottom: 5rem;
+  }
+  .promoters-page-hero-content img {
+    right: -2rem;
+  }
+  .promoters-page-hero-content p {
+    font-size: 12px;
   }
   .features-hero-container {
     grid-template-rows: 35% 65%;
@@ -1501,7 +1580,7 @@ textarea {
     margin-top: 0.75rem;
   }
   .contact-sister-content {
-    margin: 2rem;
+    height: calc(100vh - 12rem);
   }
 }
 
@@ -1510,8 +1589,13 @@ textarea {
     margin-top: 0.75rem;
   }
   .contact-sister-content {
-    margin: 2rem 1rem;
+    height: calc(100vh - 0rem);
   }
+}
+
+.contact-icons {
+  top: 0 !important;
+  right: 0 !important;
 }
 
 .map-container {
@@ -1649,6 +1733,33 @@ textarea {
   .download-hero-container .download-slide-2 {
     padding: 1rem 1rem 1rem 3rem;
     right: 0;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .download-hero-container .download-slide-1 {
+    padding: 4rem 5rem 4rem 2rem;
+    right: 0;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
+  }
+  .download-hero-container .hero-content {
+    margin-top: 10rem;
+  }
+  .download-hero-container .hero-content p {
+    font-size: 26px;
+  }
+  .download-hero-container .download-slide-2 {
+    padding: 4rem 1rem 4rem 3rem;
+    right: 0;
+  }
+  .download-hero-container .manual {
+    font-size: 20px;
+  }
+  .download-hero-container .download-btn {
+    font-size: 28px;
   }
 }
 
@@ -1888,11 +1999,18 @@ textarea {
 }
 
 .modal-window {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #ffffff;
-  width: 50%;
-  margin: 10% auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-window img {
+  height: 30rem;
 }
 
 .open {

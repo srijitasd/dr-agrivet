@@ -1,13 +1,16 @@
 <?php require "./partials/header.php" ?>
 
 <div class="sister-page-hero-container">
-    <div class="sister-page-hero-content">
+    <div class="sister-page-hero-content promoters-page-hero-content">
+    <img src="./assets/images/about-us.webp" alt="about us">
+        <p>
         <h1>The Promoters</h1>
-        <p>The on-farm health care and management service in livestock industry is still at a 
+        <p>
+        The on-farm health care and management service in livestock industry is still at a 
         nascent stage. The availability of experienced veterinarian advisory at local level remains 
         a key cause of concern for the  healthcare and management.
+        </p>
     </div>
-    <img src="./assets/images/about-us.webp" alt="about us">
 </div>
 
 
