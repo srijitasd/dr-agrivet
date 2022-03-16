@@ -21,16 +21,15 @@ window.addEventListener("load", (e) => {
 });
 
 // * Close modal code
-document.addEventListener("click", (e) => {
-  console.log(e.target);
-  if (e.target.id === "simpleModal_1") {
-    gsap.to("#simpleModal_1", {
-      display: "none",
-      opacity: 0,
-      duration: 0.5,
-    });
-  }
-});
+// document.addEventListener("click", (e) => {
+//   if (e.target.id === "simpleModal_1") {
+//     gsap.to("#simpleModal_1", {
+//       display: "none",
+//       opacity: 0,
+//       duration: 0.5,
+//     });
+//   }
+// });
 
 window.onload = function () {
   // * Open Event Modal
@@ -44,12 +43,12 @@ window.onload = function () {
 
   // * Fetch user data that shows online or offline
   $.ajax({
-    url: "./includes/api/fetchuser-api.php",
+    url: "./includes/api/fetchuser-api.php?api_key=4yaARclJCVg5PFne1BumRWki",
     method: "GET",
     success: function (datas) {
-      console.log(datas);
+      //console.log(datas);
       datas.forEach((data) => {
-        populateTable(data);
+        //populateTable(data);
       });
     },
   });
@@ -114,6 +113,7 @@ window.onload = function () {
     e.preventDefault();
 
     var jsonObj = jsonData("#enquiry-form");
+    console.log(jsonObj);
 
     if (!jsonObj) {
       alert("hello");
@@ -122,9 +122,13 @@ window.onload = function () {
         url: "./includes/api/form-handler-api.php",
         type: "POST",
         data: jsonObj,
+        dataType: "json",
+        contentType: "application/json",
         success: function (data) {
+          console.log(data);
           switch (data.status) {
             case 201:
+              alert("data inserted succesfully");
               // enquiryBtn.setAttribute("disabled", true);
               inputs.forEach((input) => (input.value = ""));
               textArea.value = "";
@@ -133,6 +137,9 @@ window.onload = function () {
             default:
               break;
           }
+        },
+        error: function (err) {
+          console.log(err);
         },
       });
     }
@@ -330,14 +337,43 @@ function accordion() {
 }
 
 // * MAKE JSON FROM OBJECT FUNCTION
-function jsonData(form) {
+function jsonData(form, multi = undefined) {
   var arr = $(form).serializeArray();
+
+  var result = arr.map(function (obj) {
+    var value;
+    if (obj.value === "true") {
+      value = true;
+    } else if (obj.value === "false") {
+      value = false;
+    } else if (!isNaN(obj.value)) {
+      value = parseInt(obj.value);
+    } else {
+      value = obj.value;
+    }
+    return {
+      name: obj.name,
+      value: value,
+    };
+  });
+
+  var select;
+  if (multi != undefined) {
+    const key = multi;
+    select = [...arr].filter((item) => item.name == key).map((item) => item.value);
+  }
+
   var obj = {};
-  for (var a = 0; a < arr.length; a++) {
-    if (arr[a].value == "") {
+  for (var a = 0; a < result.length; a++) {
+    if (result[a].value == "") {
       return false;
     }
-    obj[arr[a].name] = arr[a].value;
+    obj[result[a].name] = result[a].value;
+  }
+
+  if (multi != undefined) {
+    delete obj[multi];
+    obj[multi] = select.toString();
   }
 
   var jsonData = JSON.stringify(obj);
@@ -356,33 +392,105 @@ function setUserOnline() {
     url: "./includes/api/online-api.php",
     type: "POST",
     data: onlineJson,
-    success: function (data) {
-      console.log(data);
-    },
+    success: function (data) {},
   });
 }
 
-// ! POPULATE TABLE FUNCTION
-// const populateTable = (data) => {
-//   var tr = document.createElement("tr");
-//   var idTd = document.createElement("td");
-//   idTd.innerText = data.client_id;
-//   var dateTd = document.createElement("td");
-//   dateTd.innerText = data.client_date;
-//   var timeTd = document.createElement("td");
-//   timeTd.innerText = data.client_time;
-//   var ipTd = document.createElement("td");
-//   ipTd.innerText = data.client_ip;
-//   var cityTd = document.createElement("td");
-//   cityTd.innerText = data.client_city;
-//   var onlineTd = document.createElement("td");
-//   onlineTd.innerText = data.status;
-//   onlineTd.classList.add(data.class);
-//   tr.appendChild(idTd);
-//   tr.appendChild(dateTd);
-//   tr.appendChild(timeTd);
-//   tr.appendChild(ipTd);
-//   tr.appendChild(cityTd);
-//   tr.appendChild(onlineTd);
-//   clientTable.appendChild(tr);
-// };
+window.addEventListener("load", async () => {
+  //* GET LANGUAGE DATA
+  const dictionary = await getLangData("./language/language.json");
+
+  console.log(dictionary);
+
+  //* LANGUAGE CHANGE SELECT
+  const langChange = document.getElementById("lang-change");
+
+  langChange.addEventListener("change", (e) => {
+    languageSwitcher(e.target.value, dictionary);
+  });
+});
+
+//* SWITCH LANGUAGE FUNCTION
+const languageSwitcher = (lang, data) => {
+  console.log(data);
+  const keys = Object.keys(data.lang[lang]);
+
+  keys.forEach((key) => {
+    var textNode = document.querySelector(`[data-lang="${key}"]`);
+    textNode && (textNode.innerHTML = data.lang[lang][key]);
+  });
+};
+
+// * MAKE AJAX REQUEST WITH PARAM FUNCTION
+async function getLangData(apiName, method) {
+  const data = await $.ajax({
+    url: apiName,
+    type: method,
+    dataType: "json",
+    contentType: "application/json",
+  });
+
+  return data;
+}
+
+const checkEmptydata = (form) => {
+  const x = document.getElementById(form).querySelectorAll("input, textarea");
+
+  x.forEach((input) => {
+    if (!input.classList.contains("not-reqd")) {
+      if (input.value == "") {
+        input.style.border = "1px solid red";
+        if (input.nextElementSibling !== null) {
+          input.nextElementSibling.style.display = "block";
+        }
+      } else {
+        input.style.border = "1px solid #ced4da";
+        if (input.nextElementSibling !== null) {
+          input.nextElementSibling.style.display = "none";
+        }
+      }
+    }
+  });
+};
+
+$("#reload-captcha").click(function (event) {
+  event.target.seek("25%");
+  event.target.play();
+  reloadCaptcha();
+});
+
+const reloadCaptcha = (event) => {
+  event.target.seek("25%");
+  event.target.play();
+  $("#captcha-img").attr("src", "./includes/api/captcha.php?" + new Date().getMilliseconds());
+};
+
+function validateName(evt) {
+  const regex = /^[A-Za-z ]+$/;
+  if (!regex.test(evt.key)) {
+    evt.preventDefault();
+  }
+}
+
+function validateNumber(evt) {
+  const regex = /^[0-9]+$/;
+  if (!regex.test(evt.key) || evt.target.value.length >= 15) evt.preventDefault();
+}
+
+function validateCountryCode(evt) {
+  const regex = /^[0-9+]+$/;
+  if (!regex.test(evt.key) || evt.target.value.length >= 4) evt.preventDefault();
+}
+
+const validateEmail = (event) => {
+  const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+  if (!event.target.value.match(regex)) {
+    event.target.classList.add("is-invalid");
+    $("#form-btn").attr("disabled", true);
+  } else {
+    event.target.classList.remove("is-invalid");
+    event.target.classList.add("is-valid");
+    $("#form-btn").removeAttr("disabled");
+  }
+};

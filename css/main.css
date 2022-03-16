@@ -80,7 +80,7 @@ textarea {
   background-color: white;
   border-radius: 10px;
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -143,7 +143,7 @@ textarea {
 
 @media screen and (max-width: 1000px) {
   h1 {
-    font-size: 64px;
+    font-size: 36px;
     line-height: 120%;
     margin-bottom: 1.5rem;
   }
@@ -157,7 +157,7 @@ textarea {
     font-size: 20px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   a {
     font-size: 16px;
@@ -234,7 +234,7 @@ textarea {
 .form-btn {
   background-color: #06852e;
   padding: 0.75rem 1.5rem;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 1030px) {
@@ -992,7 +992,7 @@ textarea {
 
 .testimonial {
   margin: 0rem 1rem;
-  background: linear-gradient(107.02deg, #06852e 6.25%, #2d3b8d 76.56%);
+  background-color: #2d3b8d;
   border-radius: 10px;
 }
 
@@ -1036,7 +1036,7 @@ textarea {
 @media screen and (min-width: 1030px) {
   .testimonial {
     margin: 0rem 1rem;
-    background: linear-gradient(107.02deg, #06852e 6.25%, #2d3b8d 76.56%);
+    background-color: #2d3b8d;
     border-radius: 10px;
   }
   .testimonial p {
@@ -1099,7 +1099,7 @@ textarea {
 
 .footer-inner-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 55% 45%;
 }
 
 .footer-content {
@@ -1162,11 +1162,10 @@ textarea {
   background-color: #2d3b8d;
   color: white;
   padding: 2rem 3rem;
-  padding-bottom: 0;
 }
 
 .footer-form form h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1030px) {
@@ -1235,9 +1234,6 @@ textarea {
 .sister-page-hero-container img {
   height: calc(50vw - 8rem);
   justify-self: right;
-  float: right;
-  position: relative;
-  top: -5rem;
   right: -4rem;
 }
 
@@ -1246,8 +1242,14 @@ textarea {
   font-size: 14.5px;
 }
 
-.promoters-page-hero-content {
-  height: calc(100vh - 12rem);
+.promoters-hero-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0rem;
+}
+
+.promoters-hero-cont .promoters-hero-text-cont {
+  margin: 6rem 2rem 0rem 2rem;
 }
 
 .page-content {
@@ -1388,6 +1390,18 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .promoters-hero-cont {
+    margin-top: 2rem;
+  }
+  .promoters-hero-cont img {
+    height: 30rem;
+  }
+  .promoters-hero-cont .promoters-hero-text-cont {
+    margin: 7rem 3rem 0rem 2rem;
+  }
+}
+
 @media screen and (min-width: 1900px) {
   .sister-page-hero-container {
     margin: 3rem 4rem;
@@ -1438,6 +1452,15 @@ textarea {
     height: calc(100vw - 18rem);
     top: -4rem;
   }
+  .promoters-hero-cont {
+    margin-top: 2.5rem;
+  }
+  .promoters-hero-cont img {
+    height: 20rem;
+  }
+  .promoters-hero-cont .promoters-hero-text-cont {
+    margin: 4rem 1rem 0rem 2rem;
+  }
   .promoters-page-hero-content {
     margin: 3rem 4rem;
     margin-top: 8rem;
@@ -1467,14 +1490,16 @@ textarea {
 }
 
 @media screen and (max-width: 560px) {
-  .sister-page-hero-container {
-    margin: 3rem;
-    margin-top: 8rem;
+  .promoters-hero-cont {
+    margin: 1.5rem 0rem;
+    flex-direction: column-reverse;
   }
-  .sister-page-hero-container img {
-    height: 19rem;
-    top: -5rem;
-    right: -3rem;
+  .promoters-hero-cont img {
+    height: auto;
+  }
+  .promoters-hero-cont .promoters-hero-text-cont {
+    margin: 2rem 1rem;
+    text-align: center;
   }
   .promoters-page-hero-content {
     margin: 0;
@@ -1620,7 +1645,7 @@ textarea {
   display: grid;
   grid-template-columns: 45% 55%;
   height: calc(100vh - 3rem);
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   overflow: hidden;
   background: url(../assets/backgrounds/download.svg);
   background-position: center;
@@ -1799,22 +1824,21 @@ textarea {
   }
   .download-hero-container .hero-content {
     margin-right: 2rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 4rem;
   }
   .download-hero-container .download-hero-btn-container {
     margin-top: 2rem;
-    flex-direction: column;
   }
   .download-hero-container .download-hero-btn-container button {
     width: fit-content;
-    padding: 0.5rem 1rem;
-    margin-right: 0;
+    padding: 0.3rem 0.75rem;
+    margin-right: 0.5rem;
     margin-bottom: 0.5rem;
+    font-size: 12px;
   }
   .download-hero-container .download-hero-btn-container img {
-    height: 1.5rem;
-    margin: 0rem 1rem;
+    height: 1.2rem;
   }
   .download-hero-container .download-btn {
     font-size: 16px;
@@ -1859,7 +1883,8 @@ textarea {
   }
   .download-hero-container .download-hero-btn-container button {
     width: fit-content;
-    padding: 0.4rem 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 12px;
   }
   .download-hero-container .download-hero-btn-container img {
     height: 1rem;
@@ -2017,3 +2042,21 @@ textarea {
   display: block;
 }
 /*# sourceMappingURL=main.css.map */
+
+.contact-input-cont {
+  display: flex;
+}
+
+.captch-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.captch-cont input {
+  width: 60%;
+}
+
+.captch-cont img {
+  height: fit-content;
+}
